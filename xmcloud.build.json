@@ -12,6 +12,17 @@
     },
     "postActions": {
         "actions":{
+          "scsModules": {
+            "modules": [
+              "SiteCreationTemplates",
+              "NutriLifeCorporate-Content",
+              "ActiveFuel-Content",
+              "NutriKids-Content",
+              "SlimLife-Content",
+              "PureEsssence-Content",
+              "VitalGreens-Content"
+            ]
+          },
           "warmUpCm": {
             "urls": [
               "/sitecore/shell",
