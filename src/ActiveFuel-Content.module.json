@@ -2,12 +2,12 @@
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "ActiveFuel-Content",
     "items": {
-        "includes": [
-            {
-                "name": "DefaultRenderingHost",
-                "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
-                "scope": "singleItem"
-            }
-        ]
+        // "includes": [
+        //     {
+        //         "name": "DefaultRenderingHost",
+        //         "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
+        //         "scope": "singleItem"
+        //     }
+        //]
     }
 }
