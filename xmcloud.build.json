@@ -10,6 +10,11 @@
         "runCommand": "next:start"
       }
     },
+    "deployItems": {
+      "modules": [
+        "renderinghost"
+      ]
+    },
     "postActions": {
         "actions":{
           "scsModules": {
