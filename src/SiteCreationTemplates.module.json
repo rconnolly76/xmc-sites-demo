@@ -18,9 +18,30 @@
                 "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/NutriLife Site Template",
                 "scope": "ItemAndDescendants"
             },
+            
             {
                 "name": "NutriLife-SiteTemplate",
                 "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/NutriLife Site",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Product Family Site Template",
                 "scope": "ItemAndDescendants"
             }
         ]
