@@ -2,12 +2,27 @@
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "SiteCreationTemplates",
     "items": {
-        // "includes": [
-        //     {
-        //         "name": "DefaultRenderingHost",
-        //         "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
-        //         "scope": "singleItem"
-        //     }
-        // ]
+        "includes": [
+            {
+                "name": "NutriLife-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/NutriLife Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/NutriLife Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/NutriLife Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/NutriLife Site",
+                "scope": "ItemAndDescendants"
+            }
+        ]
     }
 }

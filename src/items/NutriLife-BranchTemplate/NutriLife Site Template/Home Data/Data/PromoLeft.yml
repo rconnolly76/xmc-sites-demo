@@ -1,0 +1,156 @@
+﻿---
+ID: "bb1bab02-35fc-469d-b037-eb036a54eb49"
+Parent: "a294864a-f47f-4fcf-af99-5b2574bf6034"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: /sitecore/templates/Branches/Feature/JSS Experience Accelerator/NutriLife Site Template/Home Data/Data/PromoLeft
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: PromoLeft
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Nyeste streetwear</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: PromoLinks
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240809T204753Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Die neueste Streetwear</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2db98a6a-5915-4a16-b2c6-3cb22105cdaf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240809T204753Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220620T083818Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3 style="color:#113F6C;">Our Brands</h3>
+        <p>Founded over 80 years ago by visionary Fictional Person, NutriLife&trade; is the world&rsquo;s&nbsp;<span style="line-height: var(--cib-type-subtitle2-stronger-line-height);">number-one selling vitamin and dietary supplement brand</span><span style="background-color: #ffffff; color: #111111;">. NutriLife&rsquo;s commitment to sustainable and organic farming methods laid the foundation for NutriLife&rsquo;s success. Their products are sourced from farms across the globe, including locations in Washington state, Mexico, and Brazil, where nutrient-rich soil yields fruits, vegetables, and herbs for plant concentrates used in their supplements.</span></p>
+        <p><span style="background-color: #ffffff; color: #111111;">
+        </span></p>
+        <p style="color: #111111; background-color: #ffffff; margin: 12px 0px 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">NutriLife&trade; maintains control over the entire growing process, from seed to harvest, ensuring the highest quality ingredients.&nbsp;Their holistic approach to nutrition emphasizes phytonutrients and plant-based health, making Nutrilite&trade; a trusted choice for health-conscious consumers.</p>
+        <p style="color: #111111; background-color: #ffffff; margin-top: 12px; margin-right: 0px; margin-left: 0px; padding: 0px; line-height: var(--cib-type-body2-line-height);">Remember, NutriLife&trade; products are packed with earth&rsquo;s purest nutrients, nourishing every aspect of your daily nutrition ritual.&nbsp;</p>
+        <p>&nbsp;</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e59bd555-6d1f-4d28-8520-86de27624b8a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240820T162449Z
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{7E570A98-32CA-4FC1-8F8A-F32107A75C30}" />
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: プロモーション左
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240809T204753Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>最新のストリートウェア</h3>
+        Lorem ipsum dolor sit amet，consecteturadipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2db98a6a-5915-4a16-b2c6-3cb22105cdaf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240809T204753Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 推广左侧
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240809T204753Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>最新街头服饰</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2db98a6a-5915-4a16-b2c6-3cb22105cdaf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240809T204753Z
