@@ -64,8 +64,18 @@
                 "name": "Product-SiteTemplate",
                 "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Product Site Template",
                 "scope": "ItemAndDescendants"
-            }
-            
+            },
+
+            {
+                "name": "Blank-SiteTemplate",
+                "path": "/sitecore/system/Settings/Foundation/JSS Experience Accelerator/Scaffolding/Templates/Empty Site",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "Blank-SiteTemplate-Media",
+                "path": "/sitecore/media library/Foundation/JSS Experience Accelerator/bzblog-16templates-blank-template",
+                "scope": "SingleItem"
+            }            
         ]
     }
 }
