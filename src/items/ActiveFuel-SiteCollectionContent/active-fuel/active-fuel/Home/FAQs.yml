@@ -1,0 +1,68 @@
+﻿---
+ID: "29debde9-0846-4058-86b9-13504579758e"
+Parent: "8157d2d0-60c8-44af-9c7b-f95a85028f2e"
+Template: "67fc057a-48c5-4a5f-a924-93d473c25b14"
+Path: "/sitecore/content/active-fuel/active-fuel/Home/FAQs"
+BranchID: "29344f08-b351-411b-97ed-1bba27a5c795"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EDBE1AF2-A5CD-4CE8-B6F5-C103A6EC572E}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0A4F1665-D960-4195-A586-BB03F3FD688C}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b494693DA-BB64-420B-846C-347D5CFADBF4%7d%7c%7bF97EA527-1795-4C30-B814-11CB2A330B10%7d%7c%7b2A16E40C-38F3-4F84-B95D-2EB7289EF70B%7d%7c%7bE73FD3D9-3401-4279-B861-603C04F71797%7d%7c%7b24FC68FD-FC18-4D67-A8EA-D3D3513379D7%7d%7c%7b0A18E9A4-8B1C-4CCB-99DE-FCF2941FA97A%7d%7c%7bD114EA68-E116-4A46-9FD4-D382FD823DB2%7d%7c%7b064EBCE3-A182-4CC0-B98C-356EE0356F6B%7d%7c%7b751FDAD3-6F66-4660-9824-3651F7FFB546%7d%7c%7b21EC2AEC-DDE1-4304-BB3C-0F4230FDC155%7d%7c%7b44041531-7CA8-496A-8B5A-B0AF15D1D913%7d%7c%7b463B418F-EAE8-4F08-9CD2-418854E466EA%7d%7c%7bD6C92E51-90BA-4A18-82A6-0F9809BCF401%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{61A18C9D-408D-4B5B-8C6E-4346D08BA20E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bB3000439-1441-4897-804A-D9884787F1AF%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F03A40DD-2406-4D2E-8DFE-EADB9CDF5F3C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T220047Z
+    - ID: "3e2d20a0-6633-45b7-957f-fa7620f5e835"
+      Hint: Title
+      Value: FAQs
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: FAQs
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4ab01c0-1150-451e-804a-3cd6d141b3af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T220118Z

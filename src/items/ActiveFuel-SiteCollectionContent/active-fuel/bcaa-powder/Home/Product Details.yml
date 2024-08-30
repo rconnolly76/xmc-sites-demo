@@ -1,0 +1,71 @@
+﻿---
+ID: "ddbe0c2a-76c9-43e6-93c2-be5fa63bd1e1"
+Parent: "68044944-b977-4e1c-b049-0173efcf712e"
+Template: "67fc057a-48c5-4a5f-a924-93d473c25b14"
+Path: "/sitecore/content/active-fuel/bcaa-powder/Home/Product Details"
+BranchID: "1261c7cf-1300-4c98-a3ca-616e0549e46b"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{01ED2EB4-0DA5-4144-805D-E7FF34B24C14}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F6671653-A2D7-4D31-9CCF-1E50CFD1B00E}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b0841A72C-DD55-4911-ADF0-29CD8F689078%7d%7c%7bDAE041FE-D9C7-40AB-8102-7EF3D617EA92%7d%7c%7bAECCF624-3E2E-4AB1-9A72-9EEE030E5BD8%7d%7c%7bD05393B8-71F6-4005-824A-9269292476C8%7d%7c%7bB7C24E2F-9FD1-4099-B632-CA3665A84946%7d%7c%7bDDD8C179-34FE-4412-B493-48096194B4D6%7d%7c%7b0AEABB7E-8CB9-4E4A-869F-E3C00940FBA0%7d%7c%7b3C246460-43A7-498B-BDAE-95F28EBE32A9%7d%7c%7b384EDAB4-88E5-47C6-A9C5-5A96D9D26C6F%7d%7c%7b8B3956DA-9A42-41D9-9D6E-91ADF903063D%7d%7c%7bBF7DF977-9F20-49BC-9079-A56B95A656B0%7d%7c%7bD7289A2F-8B60-4AD6-8FE4-1B6ED36A4D14%7d%7c%7b9F39AE24-0B5D-4E19-ABAD-745DF7DD74BB%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{24B32B0C-95E9-47B0-BD33-218682AA83EB}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bEC03A767-3C1B-432C-8750-1A92C3739ED6%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3277D74C-EF05-4494-988F-D62847F2558F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T195829Z
+    - ID: "3e2d20a0-6633-45b7-957f-fa7620f5e835"
+      Hint: Title
+      Value: Product Details
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Product Details
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b61a404-6532-478f-bebb-3050fe296bbf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T195923Z

@@ -1,0 +1,79 @@
+﻿---
+ID: "cedee106-1248-4afc-9dd0-ab0eb951c0f7"
+Parent: "1ae9b3ca-7d1f-404c-9802-a1dc6a28a707"
+Template: "67fc057a-48c5-4a5f-a924-93d473c25b14"
+Path: "/sitecore/content/active-fuel/nitric-oxide-booster/Home/Error/500 - Internal Server Error"
+BranchID: "7a93ce40-5814-4e60-8902-556f106c8e15"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 12
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{89F71BC5-5B02-496C-AF1D-5D3BE7BFA057}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{75DF4BE8-4540-43A5-ADBB-D498BD0A0626}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bCBDB288F-188D-471F-A3D2-3A351F471985%7d%7c%7b2FEDB257-4B72-4557-B26F-1517291D0713%7d%7c%7b3EF4C675-08C6-47B6-B556-237BB79C6980%7d%7c%7b1BFC32FD-34A3-4807-A39C-2BB2DFF901D7%7d%7c%7b743964EC-7908-4BE3-ADD3-B09DD736651E%7d%7c%7bD4FFC743-F36F-4FED-BE7C-A2B47B1F5B42%7d%7c%7b4CFD53FC-B2A8-42C2-9217-1BBAD9EC1998%7d%7c%7bE36BFF7E-7DCA-45B9-810E-3F9A2F0C76BE%7d%7c%7b378931F9-15FC-42A1-B86E-31ADC7B9F830%7d%7c%7bEAD3C75F-142D-45EB-A7B4-2FDD8A01355C%7d%7c%7b9DF05878-3A57-4CF1-B2D3-2B251A102319%7d%7c%7bC1F5A03B-8BA5-4501-95B9-C9D5A6554AAF%7d%7c%7bEB53DF59-6698-47EC-B22F-A3F905323329%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{9BB764BB-4FAD-4AEA-BD8B-8E159CFF47D3}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b8A58564E-2CDE-408B-8E86-BDD8BEEE0BFD%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C41290F1-F121-4120-B8DF-18E5C2278CC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T201247Z
+    - ID: "3e2d20a0-6633-45b7-957f-fa7620f5e835"
+      Hint: Title
+      Value: "500 - Internal Server Error"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "500 - Internal Server Error"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9502b214-be19-4094-8926-e264625fcccc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T201318Z

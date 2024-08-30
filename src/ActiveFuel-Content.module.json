@@ -2,12 +2,42 @@
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "ActiveFuel-Content",
     "items": {
-        // "includes": [
-        //     {
-        //         "name": "DefaultRenderingHost",
-        //         "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
-        //         "scope": "singleItem"
-        //     }
-        //]
+        "includes": [
+            {
+                "name": "ActiveFuel-SiteCollectionContent",
+                "path": "/sitecore/content/active-fuel",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ActiveFuel-CollectionMedia",
+                "path": "/sitecore/media library/Project/active-fuel",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ActiveFuel-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/active-fuel",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ActiveFuel-CollectionTemplates",
+                "path": "/sitecore/templates/Project/active-fuel",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ActiveFuel-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/active-fuel",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ActiveFuel-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/active-fuel",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ActiveFuel-Branches",
+                "path": "/sitecore/templates/Branches/Project/active-fuel",
+                "scope": "ItemAndDescendants"
+            }
+        ]
     }
 }

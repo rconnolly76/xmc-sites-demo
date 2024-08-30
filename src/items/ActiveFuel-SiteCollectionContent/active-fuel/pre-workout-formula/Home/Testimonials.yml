@@ -1,0 +1,71 @@
+﻿---
+ID: "609aea13-9c15-4634-b231-3a6fb5ff0b3b"
+Parent: "ace0e937-39a9-413a-a076-c66be9442c77"
+Template: "67fc057a-48c5-4a5f-a924-93d473c25b14"
+Path: "/sitecore/content/active-fuel/pre-workout-formula/Home/Testimonials"
+BranchID: "d7718b53-ef5c-4182-8a98-7acefd474fea"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{58F4F662-113F-48CE-A2D2-129EC6662102}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9CAE8260-3DAF-456C-9F28-C7E5268FD0F1}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bB5BBEC8F-CA9E-4CCD-93A5-DBF1B232DC50%7d%7c%7bC4BFA827-44F9-47FE-AF42-1FA5F0DE7AD9%7d%7c%7bF8AB75B0-4696-45F6-81FB-F4FC5423D586%7d%7c%7b52349007-74B1-4DCF-9A0D-AEB63578C33C%7d%7c%7bEB91B1FD-E916-42C0-B493-F2C050E48C6B%7d%7c%7b8EA00D40-B8A7-4866-8F3F-AB6662FD0FB0%7d%7c%7bC013F69E-B0B9-4B56-BFF1-B926D73640E4%7d%7c%7bE2B16791-8724-4469-8D61-6F42C9F50F9B%7d%7c%7b9303A0FF-3AF8-4397-9C81-A714D4048475%7d%7c%7b90137F5D-EC47-47FC-9EB0-6E849835C750%7d%7c%7b01183EBF-7447-4385-8B94-629BDE18A832%7d%7c%7b4879FD26-2BD3-4997-84BE-DAB263513AA9%7d%7c%7b8B1A81CA-E61E-4687-8D00-F44F8082B470%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{B694A735-9825-4C2B-8E93-FE28A9850028}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bF4E41B7A-B81A-41A2-B4D6-7E8E31BD7E16%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{79579FCE-5B44-49EE-A8FE-BF7BC86B9809}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T195727Z
+    - ID: "3e2d20a0-6633-45b7-957f-fa7620f5e835"
+      Hint: Title
+      Value: Testimonials
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Testimonials
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c56fdf1-2f6f-4f1f-877e-09c4c8960ead"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T195811Z
