@@ -1,0 +1,171 @@
+﻿---
+ID: "d95905b0-a90e-46dd-a581-e0cdfdbbcd6c"
+Parent: "b8811549-01c1-40ee-920a-3731b71b4cd0"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/templates/Branches/Feature/JSS Experience Accelerator/Product Site Template/Awards and Certifications Data/Awards and Certifications/Data/Text 1
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tekst 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Om</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Text 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Über</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T100628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Awards and Certifications</h1>
+        <p>
+        </p>
+        <p style="margin-left: 0px;">&nbsp;</p>
+        <ul style="color: #111111; background-color: #f7f7f7; margin: 12px 0px 0px;">
+            <li>Information on any awards the product or company has received</li>
+            <li>Certifications and quality standards</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "387cf070-5650-40cf-944d-46da9adf52d6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T152241Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: テキスト1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>概要</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Text 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>关于</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
