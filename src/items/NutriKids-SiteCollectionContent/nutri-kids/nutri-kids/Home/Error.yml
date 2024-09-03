@@ -1,0 +1,79 @@
+﻿---
+ID: "1edf12f8-a583-4cd9-8fc1-ddfa2b0f9fb4"
+Parent: "d64a829b-b262-4fa0-b107-e1127ccb3997"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/nutri-kids/Home/Error"
+BranchID: "ab5c0ac7-9e86-4f1e-a72c-7c449d1eb296"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 5000
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{11F4D4BD-CF8D-4EAD-87F5-8CFFB9289E0D}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{33AF55DA-D673-46DB-8538-07ABFA8851B3}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bB81614B5-3D95-4920-87FD-ED5045A3F1BD%7d%7c%7bAE791A11-1EC2-407F-823B-B761FBA14263%7d%7c%7bBB5D798B-B1DF-4F6B-B4D9-8186271224FE%7d%7c%7bD1A81494-6951-4A4C-BAD2-7C175DD4B1B6%7d%7c%7b99775EED-424B-48DF-A1F1-275B07D6A967%7d%7c%7bC4B75E41-6F3E-4329-A1F6-DBF88C4E29A9%7d%7c%7bA6CF7342-9EC6-45D3-93B9-39F9A91EB83E%7d%7c%7b90EB1E8B-0353-4C63-BDCE-5BB285D1DBE7%7d%7c%7bFAFE3E58-E27A-4107-8E94-0CAD9E4AB75B%7d%7c%7b7636A511-1D97-497D-B7A2-89CA24A4A6B6%7d%7c%7b22E1F198-DBCC-4DFB-93B3-9BA00123BCB3%7d%7c%7bDDEB1493-380D-453D-BC28-D74BCCF2F862%7d%7c%7bCFDAA5A2-9C4E-408C-9A18-374BB1CD79D0%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{AB3A83CF-E4CD-4E1F-A7E6-3190EDE74D7E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b58D6260F-6C88-4E84-8F33-BA18393A3E26%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{05AC1E76-C98C-4D86-A842-B419B03F42B0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T221041Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Error
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0225480d-debd-4921-9ad5-afc6390e170a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Error
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T221101Z

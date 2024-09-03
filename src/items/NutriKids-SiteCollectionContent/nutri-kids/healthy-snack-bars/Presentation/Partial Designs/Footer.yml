@@ -1,0 +1,68 @@
+﻿---
+ID: "64c7df45-83ed-40ef-92c7-cb902dc45a9e"
+Parent: "e24a0924-6578-429b-8e8d-0f00ff6acf58"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/nutri-kids/healthy-snack-bars/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{33337936-3A17-4EB6-A46A-FC35280F437C}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b053D68F2-F949-4DA2-9E7D-8F7786FA89F3%7d%7c%7b3F113F64-52B8-4F2D-8990-E839B61E35B5%7d%7c%7bE08A8B3B-878E-41C5-86DA-A8FECD0894C8%7d%7c%7b65FB1853-9947-4B00-AB9F-303AE1963F1C%7d%7c%7b80CCAF61-EFD0-4CEA-92C8-4A9074543EC6%7d%7c%7b39BF424B-8A1C-4C3D-8D41-81801F6BC958%7d%7c%7bE8E983B8-2D68-4F51-A09C-90AAC913D884%7d%7c%7b22B52C0A-6D6F-45FA-B1D6-A07351B538ED%7d%7c%7b7550BD17-3688-42E8-A7E1-57DC5A4F096C%7d%7c%7bF3726F70-0221-49CA-8359-1A2284CABE0E%7d%7c%7b1F1C971C-EE16-47E2-91F0-8E94BEEACFE0%7d%7c%7b48E51109-E87E-4409-89C1-9EA71B55F976%7d%7c%7b4DBFB7E3-1E33-452B-B423-B9931189A969%7d%7c%7bDC9EF080-5B74-4CAE-AFB2-CF0D6CE40166%7d%7c%7b465F7B1E-8488-49B3-B6C0-D5C6137E74D0%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{3A85CE89-1FD3-493B-9D2B-AA588A95EE12}"
+          p:after="r[@uid='{33337936-3A17-4EB6-A46A-FC35280F437C}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b7DB68285-86C7-41EC-BAB3-6A9ECE0B0377%7d&amp;FieldNames=%7b56DE08E9-AF43-49AC-B7FE-D3ED76019BFF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{73D639A5-0304-4354-A137-72C8E5FDAF0E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b7DB68285-86C7-41EC-BAB3-6A9ECE0B0377%7d&amp;FieldNames=%7b56DE08E9-AF43-49AC-B7FE-D3ED76019BFF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T041748Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b553c1d5-a40d-48d5-8508-bcf22bd1815c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T041810Z

@@ -1,0 +1,48 @@
+﻿---
+ID: "8bf96ba4-fdba-4b6f-9d80-7a363d4da387"
+Parent: "9f000423-b053-4919-8c13-b0f6d78b5d2f"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/nutri-kids/calcium-vitamin-d-chewables/Home/Health Benefits/Data/Text 1"
+BranchID: "972b460b-919a-4046-824e-0f6d7a411285"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{738EA9F0-099A-4A12-B131-AC2582F41A06}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T224116Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>About Health Benefits</h1>
+        <p>
+        <ul style="color: #111111; background-color: #f7f7f7; margin: 12px 0px 0px;">
+            <li>Benefits of using [Product]</li>
+            <li>Scientific research and studies</li>
+            <li>Testimonials and success stories</li>
+        </ul>
+        </p>
+        <p>&nbsp;</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c73d3657-4bf4-4648-9d1e-33459df174e9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T224116Z

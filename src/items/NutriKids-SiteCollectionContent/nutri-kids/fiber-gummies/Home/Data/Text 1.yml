@@ -1,0 +1,41 @@
+﻿---
+ID: "96a576d9-84ba-4d7b-bfbf-feced3283414"
+Parent: "2b551599-f470-41b0-84fb-b148067806fc"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/nutri-kids/fiber-gummies/Home/Data/Text 1"
+BranchID: "e9655fd2-8a94-4e28-b07a-a401e6d64cd6"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{23657758-05CF-4849-9399-30943FE70E8D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T040914Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl" data-id="4" style="border:0px solid hsl(var(--border));color: #09090b; background-color: #ffffff; margin: 0px;    text-align: center; letter-spacing: -0.025em; line-height: 1;">A NutriLife Product&nbsp;</h1>
+        <p class="text-xl text-muted-foreground md:text-2xl" data-id="5" style="border:0px solid hsl(var(--border));color: hsl(var(--muted-foreground)); background-color: #ffffff; margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse))); margin-right: 0px; margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)); margin-left: 0px;    text-align: center; line-height: 2rem;">Website template for a NutriLife Product</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8cd8eed5-227b-4fc8-9e01-0a5ccc43e56e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T040914Z

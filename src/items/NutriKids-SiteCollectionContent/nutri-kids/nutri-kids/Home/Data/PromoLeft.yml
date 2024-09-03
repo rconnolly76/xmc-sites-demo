@@ -1,0 +1,53 @@
+﻿---
+ID: "63ae2e63-cce1-4d62-aca0-8d745e21be4a"
+Parent: "c366b704-f5bc-431f-8449-a9802c2999ec"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/nutri-kids/nutri-kids/Home/Data/PromoLeft"
+BranchID: "6e207af8-b1c3-4361-8a96-7d643f112f60"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{03AE8DF3-88E3-4079-A68C-CF5181816C33}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T221039Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Brand Products</h3>
+        <p>Explore our diverse range of nutrition-focused brands under the NutriLife umbrella. From wholesome supplements to nourishing snacks, we&rsquo;re committed to your well-being.</p>
+        <p>Common information to display in this section include:</p>
+        <ul>
+            <li><strong>Nutrition-Focused Products</strong>: These are the various products that fall within the NutriLife family. Each brand is dedicated to promoting health and wellness.</li>
+            <li><strong>Wholesome Supplements</strong>: Think vitamins, minerals, and other dietary supplements that support overall health.</li>
+            <li><strong>Nourishing Snacks</strong>: These are tasty treats that also provide nutritional benefits, perfect for those on-the-go moments.</li>
+            <li><strong>Commitment to Well-Being</strong>: NutriLife prioritizes your health and aims to enhance your quality of life through its product offerings.</li>
+            <li><strong>Brand Focus:</strong> Highlights about what the target audience for the brand.</li>
+        </ul>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86ddbd52-a04f-48a2-9a86-12fe6e8e3ca9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T221039Z
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{59E559E7-93F6-41D3-AB68-CE953A548886}" />

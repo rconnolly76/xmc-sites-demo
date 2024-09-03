@@ -1,0 +1,71 @@
+﻿---
+ID: "0edc3bf7-69f8-4f51-b958-7526ffbcad5b"
+Parent: "cbbfda66-b70c-4b50-bf52-0444129e0fc3"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/healthy-snack-bars/Home/Product Support/Shipping Information"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{426EE10D-8F0C-4976-AFB4-ACE9A00DF676}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7E36B111-01B1-4BDA-ABEE-D72FBD41AC32}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bE08A8B3B-878E-41C5-86DA-A8FECD0894C8%7d%7c%7b65FB1853-9947-4B00-AB9F-303AE1963F1C%7d%7c%7b80CCAF61-EFD0-4CEA-92C8-4A9074543EC6%7d%7c%7b39BF424B-8A1C-4C3D-8D41-81801F6BC958%7d%7c%7bE8E983B8-2D68-4F51-A09C-90AAC913D884%7d%7c%7b22B52C0A-6D6F-45FA-B1D6-A07351B538ED%7d%7c%7b7550BD17-3688-42E8-A7E1-57DC5A4F096C%7d%7c%7bF3726F70-0221-49CA-8359-1A2284CABE0E%7d%7c%7b1F1C971C-EE16-47E2-91F0-8E94BEEACFE0%7d%7c%7b48E51109-E87E-4409-89C1-9EA71B55F976%7d%7c%7b4DBFB7E3-1E33-452B-B423-B9931189A969%7d%7c%7bDC9EF080-5B74-4CAE-AFB2-CF0D6CE40166%7d%7c%7b465F7B1E-8488-49B3-B6C0-D5C6137E74D0%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{E2870B2D-164B-400E-B702-B93AA96307EA}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b56DE08E9-AF43-49AC-B7FE-D3ED76019BFF%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B04F4F9C-497D-4185-AB3A-C81DCCE3DA7B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T041741Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Shipping Information
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "edcb3642-ef5f-4ef7-a666-863fb689c39a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Shipping Information
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T041822Z

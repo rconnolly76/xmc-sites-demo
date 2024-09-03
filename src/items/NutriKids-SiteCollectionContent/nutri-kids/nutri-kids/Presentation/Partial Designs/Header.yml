@@ -1,0 +1,65 @@
+﻿---
+ID: "86b48657-94ad-48b2-b268-49c1427bcb84"
+Parent: "8251da6b-4c40-4e7d-87af-32aabb7cb2bf"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/nutri-kids/nutri-kids/Presentation/Partial Designs/Header"
+BranchID: "7405ad7b-9eb8-40fd-a2bf-2378b524cd95"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EE48A663-211E-4BE0-9106-D5122FD90338}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{909B53E3-21B7-4C1F-B25F-65070FF91476}"
+          p:before="*"
+          s:ds="local:/Data/Title"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bCDF16921-E8BC-4E34-8FF8-75680DE1F890%7d&amp;FieldNames=%7b58D6260F-6C88-4E84-8F33-BA18393A3E26%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d"
+          s:ph="headless-header" />
+        <r
+          uid="{CACBB4BE-8AE1-4655-8195-BD3406C42A84}"
+          p:after="*[1=2]"
+          s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+          s:par="?LevelFrom={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;LevelTo={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;NavigationRoot=%7bD64A829B-B262-4FA0-B107-E1127CCB3997%7d&amp;FieldNames=%7bF118BFE7-4AB0-4873-B6E3-82E1418E1270%7d&amp;AddRoot=1&amp;Styles=%7bF222CEBB-2A17-4501-AB0F-247EC3944969%7d%7c%7bB0A83655-113C-49F8-8DF7-6237A076BF8D%7d&amp;Filter=%7bD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d"
+          s:ph="headless-header" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F7670C3B-B7E9-46F6-802B-D472A92FB758}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T221037Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd73f3b1-2e5c-45af-bd2b-d29252d57aef"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T221054Z
