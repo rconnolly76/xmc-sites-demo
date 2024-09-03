@@ -1,0 +1,71 @@
+﻿---
+ID: "29c6639f-600c-4a38-9104-78c3c774b516"
+Parent: "411cc7d6-a18d-4d5a-a6b3-3270401f084a"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/protein-cookies/Home/Contact Us"
+BranchID: "d220e2be-4d5a-4a4f-9434-51ee0ad4ec10"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AB8B38A7-943C-4BA1-A326-2F991F023B27}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C4973AFF-9D00-483D-89D2-7CDB6C11338A}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bD6FB3471-A65C-4ECD-925C-D2B3D6CB2106%7d%7c%7bEC674083-7E44-4B8D-839A-8D503BEA2E38%7d%7c%7bFB375BAF-7C5E-456C-9558-5A8BFF749B93%7d%7c%7bE2F1A45D-FB3E-4703-8147-96BA33C55594%7d%7c%7b74DD9F46-E579-40E2-ABCB-8BD4B4B6D1AD%7d%7c%7bD43CDEBE-7543-4F0E-BEB4-3502C39E5C4A%7d%7c%7bA085763D-3C0C-4ABE-8D4E-A2A97002F688%7d%7c%7bA8F9D083-12AB-4037-8D7C-66DD434E1898%7d%7c%7b52BB0B4A-A0D1-438B-962B-397C1AC2813E%7d%7c%7b9F279296-0F47-4BAD-B75C-D94A5FE2AB3A%7d%7c%7bEAF12B11-261F-491D-A4AC-FC0B501A83F7%7d%7c%7b21384244-0158-4A3A-AD26-7067A54531C3%7d%7c%7bB3ACF798-A59F-4333-934E-4B5A6F5A9C5F%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{93D104FD-FAC0-4128-A91D-30779210AF48}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b90026C03-7F56-43CF-B4D6-E2AEC33C3241%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6B6315AB-5AFA-464D-A7B5-F861D7070B77}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T183541Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact Us
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e724486a-7845-4e1e-b435-97a8542a1033"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: Contact Us
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T183612Z

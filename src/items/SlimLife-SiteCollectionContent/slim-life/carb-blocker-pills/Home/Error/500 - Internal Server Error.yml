@@ -1,0 +1,79 @@
+﻿---
+ID: "db4438fd-e18e-4118-a34f-1937446d5388"
+Parent: "0002ffca-bdf2-4b13-b463-8cd6adcc2647"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/carb-blocker-pills/Home/Error/500 - Internal Server Error"
+BranchID: "7a93ce40-5814-4e60-8902-556f106c8e15"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 12
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{04A613CA-F87F-410E-9159-8795232CAA2C}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D3D4D086-882A-4C1C-B2DE-383559F8D907}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bF4DC8061-F2A3-44CD-B5F8-396EFA4F5451%7d%7c%7b925DBE00-7A4B-4C87-AFB9-C0FD08E7FD1D%7d%7c%7b9E7FC40A-D31A-4FFA-AA0A-E7E8DD514CB6%7d%7c%7b1B1D92CC-6719-465C-AA75-C38B9FE883FC%7d%7c%7bD10039A8-B792-48EE-97A5-574DF5E65DA7%7d%7c%7bCF6538EE-20A3-4823-8FD8-257344F30331%7d%7c%7bAD91B90C-5D37-49C6-981D-027888EF9EE5%7d%7c%7b5B702377-5F42-4625-A9EF-B254AA636FAA%7d%7c%7b7C951C52-1B91-48D7-9431-8E47E4E7559E%7d%7c%7b245DA2AC-DA4F-4098-BBA4-845919C17D02%7d%7c%7bB0B19E78-E904-41F4-97CB-7C2B80D3B06E%7d%7c%7b861375CA-A0F9-46A2-B08C-D0D1D06782CD%7d%7c%7b8E37FBAD-AA22-4ABF-AB09-5D6F629E069B%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{2C764391-A20D-450F-82F4-ADE006395575}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bE76BE219-78AD-432F-8F18-9FAA6C86CE86%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C41290F1-F121-4120-B8DF-18E5C2278CC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T183205Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "500 - Internal Server Error"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8d9ca3bf-cf00-494b-ab8e-64ce10b08ef7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: "500 - Internal Server Error"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T183235Z

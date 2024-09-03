@@ -1,0 +1,71 @@
+﻿---
+ID: "f7badd4b-e8ce-4d5e-8178-cd935f2730bc"
+Parent: "0c73931d-b230-4950-9340-4470b7091e01"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/appetite-suppressant-capsules/Home/Product Support/Return Policy"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{967B7373-F9DB-4541-91A8-60E4B88C8A8C}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C501C0A6-44DD-4BB0-B912-12E0F8CF0678}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b93CFE323-7F7A-4620-99E0-B1BE00613A70%7d%7c%7bBDDE6EAF-3B97-43D4-8872-A956B2E0C111%7d%7c%7bAA7B4736-F6E5-4EE1-B8CF-393CFCF6D4BA%7d%7c%7b3161CDD2-B3C5-4C40-AAA6-56AD659574FD%7d%7c%7bBDFD45F6-F2E7-43A7-9A12-863873F151A4%7d%7c%7b8F693149-EDF4-4942-9F59-8445AC09C3F4%7d%7c%7b1A44B2CF-B7B4-49BB-A8C4-384952BABCB4%7d%7c%7b5682CDF8-6D1E-4B4E-B6C4-0352F67B455D%7d%7c%7bF89C73CB-1750-40CC-B2CA-1D3F92017A34%7d%7c%7b1864C653-FE78-40AC-B9DB-5040D4549602%7d%7c%7b66AC0265-651D-495D-877B-8F1FB768A951%7d%7c%7bB6D2EE31-5379-465F-BCF9-ECAFDEBE4070%7d%7c%7bCE995844-9C8E-4189-B347-FDD4A79F35C4%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{69138B0E-22CC-4183-9BCC-A425EAA920B2}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b59BD5DAE-89C3-401F-B9A4-E6D08A1C7D48%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6B1349E1-821E-4D3D-9F62-E59EFF7F7A9B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T161337Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Return Policy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b76dc80-1038-465c-bf00-dcb6d5d0ab4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: Return Policy
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T161418Z

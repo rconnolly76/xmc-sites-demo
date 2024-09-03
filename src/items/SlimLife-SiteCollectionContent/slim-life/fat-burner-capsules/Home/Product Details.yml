@@ -1,0 +1,71 @@
+﻿---
+ID: "31400276-6f57-436b-8ab2-903a73e6d8a6"
+Parent: "45a5b083-ade3-4c6c-8b76-6b609061742c"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/fat-burner-capsules/Home/Product Details"
+BranchID: "1261c7cf-1300-4c98-a3ca-616e0549e46b"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{141D8831-F4FF-4C5F-8CEC-3033D08B8061}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{270505E1-990D-4F0A-8665-AB022DAC64CE}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b59735F5A-6532-4AEB-9A53-636989D91C91%7d%7c%7b39D27B62-B88C-4839-B462-319B7F42838A%7d%7c%7bC77336A4-64F7-42E0-A9A2-63F53DE3A7D2%7d%7c%7b71EE83C7-1452-41FB-8EC5-2058063B0F60%7d%7c%7b2D2C254D-C4E4-4128-BC9F-D6DAF0E28046%7d%7c%7b3B41AE97-D05C-4088-83AB-30C3659AD83C%7d%7c%7b3857F03E-7CC6-4C95-94AB-3401A276CC1A%7d%7c%7b514A4B0B-C494-46DE-9DE6-4D40E2C72181%7d%7c%7b11C239A6-77BC-43DE-B0B0-C9E2BC54967C%7d%7c%7bC5B0C684-4019-4E4E-AA43-6ED14ECA44D0%7d%7c%7b5030F20A-8E31-4340-A0CC-07AF1A7BA19E%7d%7c%7bDF4F1DA3-E50D-4C47-ABB0-AD9C941F316D%7d%7c%7b293D4341-1167-4D97-8B50-B854FD4BFBC4%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{44081852-9890-4C08-A26E-A8E85523CDCE}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b77669D9F-1189-40FC-9137-3D1F2E4AEE6E%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3277D74C-EF05-4494-988F-D62847F2558F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T184909Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Product Details
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56cdd3c9-fcb4-484c-ab55-7c7fbe7165d9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: Product Details
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T184951Z

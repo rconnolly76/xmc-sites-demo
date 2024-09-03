@@ -2,12 +2,42 @@
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
     "namespace": "SlimLife-Content",
     "items": {
-        // "includes": [
-        //     {
-        //         "name": "DefaultRenderingHost",
-        //         "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
-        //         "scope": "singleItem"
-        //     }
-        // ]
+        "includes": [
+            {
+                "name": "SlimLife-CollectionMedia",
+                "path": "/sitecore/media library/Project/slim-life",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "SlimLife-CollectionTemplates",
+                "path": "/sitecore/templates/Project/slim-life",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "SlimLife-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/slim-life",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "SlimLife-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/slim-life",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "SlimLife-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/slim-life",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "SlimLife-Branches",
+                "path": "/sitecore/templates/Branches/Project/slim-life",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "SlimLife-SiteCollectionContent",
+                "path": "/sitecore/content/slim-life",
+                "scope": "ItemAndDescendants"
+            }
+        ]
     }
 }

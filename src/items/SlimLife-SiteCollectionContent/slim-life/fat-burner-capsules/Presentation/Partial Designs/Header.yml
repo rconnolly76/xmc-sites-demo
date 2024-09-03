@@ -1,0 +1,65 @@
+﻿---
+ID: "d5d82f50-f8ad-46a1-a5d5-94e207700ac5"
+Parent: "5ef1d45e-e36b-4b4a-abd3-5914dc4d8b31"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/slim-life/fat-burner-capsules/Presentation/Partial Designs/Header"
+BranchID: "acd20bdb-dde1-42e3-b004-b8a949b29dd1"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{8489F679-F711-47AA-8A91-1186D7AD572B}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C196FA05-841B-46BD-B9C0-B3DFDB0B0F89}"
+          p:before="*"
+          s:ds="local:/Data/Title"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b1B7AE84E-37B9-4D4F-BC31-4F8D4203AB1B%7d&amp;FieldNames=%7b77669D9F-1189-40FC-9137-3D1F2E4AEE6E%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d"
+          s:ph="headless-header" />
+        <r
+          uid="{F4EC3C82-204D-4F6F-BFCC-007BD6FFC9F7}"
+          p:after="*[1=2]"
+          s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+          s:par="?LevelFrom={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;LevelTo={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;NavigationRoot=%7b45A5B083-ADE3-4C6C-8B76-6B609061742C%7d&amp;FieldNames=%7b08073143-75C5-422A-967D-B6A8B434667B%7d&amp;AddRoot=1&amp;Styles=%7b98C570EF-5D82-4B91-9D5F-D2371134D00C%7d%7c%7bBEEA69D5-541A-4C7F-8F85-89D269F09694%7d&amp;Filter=%7bD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d"
+          s:ph="headless-header" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{CB78EDF1-BBB9-4EB3-A390-A2619E6228E5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T184923Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96c93fe5-3f6e-4858-9c16-dfc004fcb6db"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T184945Z

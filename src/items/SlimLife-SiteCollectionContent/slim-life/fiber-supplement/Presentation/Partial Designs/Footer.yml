@@ -1,0 +1,68 @@
+﻿---
+ID: "b8058442-8864-42b3-9f9b-38f2ccafe4a4"
+Parent: "9141a6fa-6733-40ed-bee1-10b9b50c0f02"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/slim-life/fiber-supplement/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F9EA04AE-DADC-4A90-842B-F15356C349DC}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b3F5F4922-797D-4788-B0D9-5216A9B404AD%7d%7c%7b513C6139-54E0-4C62-9189-698B62ED5EE7%7d%7c%7b0A0D0449-FA7E-49AE-BD14-5B16A791F4AF%7d%7c%7b378D0137-F044-40DC-B0AE-A6EC4BFD7605%7d%7c%7b87BD1E5D-8E47-4A9F-874F-239B43F7DBDF%7d%7c%7b61873F8A-29FC-45FE-B0FE-D4302142BDD0%7d%7c%7b1373BFCF-39D6-4BE7-AC29-4C280DA2248D%7d%7c%7b1F0C01D0-1399-4FEB-B0D8-BDD759678910%7d%7c%7b96880530-E7E0-4D1D-9001-16A8BA8E1FE4%7d%7c%7b64696ACB-AFBE-49D2-AAAC-55489CDEEBEF%7d%7c%7b88884645-E908-4049-9957-C54AB05B5CFA%7d%7c%7b35B6BEAE-4D9B-4529-8CEE-AA0AE97CACD0%7d%7c%7b3AC8A15A-0707-49C9-8E7C-E3FF40BEB7FE%7d%7c%7b57CF55EF-ECE9-4E40-BE90-154D9B8B6DFF%7d%7c%7b8CCA528D-B362-4C83-AA5D-3C67AA581E17%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{0A56CE69-2AB1-45AE-AF6F-8F1065851A4F}"
+          p:after="r[@uid='{F9EA04AE-DADC-4A90-842B-F15356C349DC}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b2B6F0955-2D36-44B7-A32C-D1494A1B034E%7d&amp;FieldNames=%7bE2E8FCE6-4DE3-426F-ADDB-1DF0BEF1D097%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{9628AF24-8069-477F-B3AD-12D5573D03BC}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b2B6F0955-2D36-44B7-A32C-D1494A1B034E%7d&amp;FieldNames=%7bE2E8FCE6-4DE3-426F-ADDB-1DF0BEF1D097%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T182540Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5ee7cc9-c62b-4b4b-833f-948b26cca707"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T182601Z
