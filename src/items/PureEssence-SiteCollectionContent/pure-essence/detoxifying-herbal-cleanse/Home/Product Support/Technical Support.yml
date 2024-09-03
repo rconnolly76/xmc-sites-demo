@@ -1,0 +1,71 @@
+﻿---
+ID: "e0e09700-2d1b-470a-9310-8e4495bc4ebb"
+Parent: "c64a1007-f206-44ed-a8f6-6c51eedddfd7"
+Template: "0aff055f-40f1-43a8-959d-44a232475bd9"
+Path: "/sitecore/content/pure-essence/detoxifying-herbal-cleanse/Home/Product Support/Technical Support"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9059208F-F455-4715-B28E-98BF17A9DFFF}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6A3E687E-ECD6-4EBA-8170-3BAF33CDEFE0}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b6F529EC6-8E5D-4094-89DA-675CB7A1ECC2%7d%7c%7bADDB7C9D-D50C-4186-8EEE-BF1A6E5D3B77%7d%7c%7bF24F1675-DFF7-4165-BC8F-4D187F3258D4%7d%7c%7b0EC62047-82B6-4452-8D1A-6F20B1AC2B38%7d%7c%7b9D389555-12E9-401C-96D0-DCC999B02D5D%7d%7c%7bEEF8232A-8C7E-4BEF-B691-EA2F63CB7CEE%7d%7c%7bC2AA1308-E3AF-4B03-8CFD-88E4EAF1A2D4%7d%7c%7b36D4B504-290E-45C3-9313-F06293BADE9C%7d%7c%7b11E7634F-7DE0-4B08-A848-E6A544412B31%7d%7c%7b1B9E7049-A489-46A3-8849-77AFC417A666%7d%7c%7b72BDC1D8-F8A7-4AB7-B6E3-0FDC20C2BFED%7d%7c%7bC40AFAAE-7719-4040-9C02-9D92DF41D907%7d%7c%7b4F5986C6-6548-47A4-9E23-A776511CFF95%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{E403F490-7441-4953-A894-3742B9745050}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bA6FB2CEF-C2B9-4684-8E1F-CEB8CE7F7E37%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A0711AAB-CD75-474C-84AA-BA9FBFBB62DF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T191059Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Technical Support
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb781dde-1f0a-496d-a403-fe9df7d731e7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d46f2627-ed33-4149-9ca0-6780ff9f4aee"
+      Hint: Title
+      Value: Technical Support
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T191143Z

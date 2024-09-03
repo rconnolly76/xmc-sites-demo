@@ -1,0 +1,71 @@
+﻿---
+ID: "d0f9e486-64d9-4407-b992-5a0d318106d6"
+Parent: "6cfa82a7-4c2f-4cc9-8fcb-ccb8734ecf3f"
+Template: "0aff055f-40f1-43a8-959d-44a232475bd9"
+Path: "/sitecore/content/pure-essence/stress-relief-gummies/Home/Product Support/Return Policy"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AF39056C-2835-4AC9-A34E-8D2542FFC825}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0FA91F0B-4875-47F6-A602-DFBDAD3F9968}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bC4BF1D05-43DB-4D79-A07C-C9FEE5C4E168%7d%7c%7b1E9B78EA-E7EE-4A17-8B60-50534651CB75%7d%7c%7b517CE399-5846-4AAC-8D2A-9AD5106A307D%7d%7c%7b02ED4774-53C5-4F43-8C0E-EBE9A681C1FE%7d%7c%7b2A5F8E8B-B36A-4A5C-8193-35727FA25C4F%7d%7c%7b4E0216CA-061E-45DC-A7F0-10F1FCB429F7%7d%7c%7bEE39B54E-969D-4DCD-8420-834AF326F234%7d%7c%7b7D128CA4-940F-41CD-A14B-33F66A83D767%7d%7c%7b901F186B-62F5-45E1-9F40-26F00727E64B%7d%7c%7b54EAA6C2-B134-4077-B8D3-71EC3A8AE9F2%7d%7c%7b4D6FD800-ACFF-4BD6-91E3-2D404AC25D73%7d%7c%7b3455F37E-F1F8-4F00-82C7-1D875DBE1744%7d%7c%7b468C45B6-1395-4EDD-AF49-45C18EA33AED%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{595CC3C5-C35B-494A-843B-F97A246658B4}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bFB3C3976-3064-44FA-882C-B23E775C9368%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6B1349E1-821E-4D3D-9F62-E59EFF7F7A9B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T191809Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Return Policy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b126c305-bd43-435f-8523-de890f19ab50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d46f2627-ed33-4149-9ca0-6780ff9f4aee"
+      Hint: Title
+      Value: Return Policy
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T191857Z

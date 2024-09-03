@@ -1,0 +1,68 @@
+﻿---
+ID: "7842bb9b-b492-4e29-a90f-20558e89bf85"
+Parent: "9bc003b8-0854-4846-8c4c-631b6bb080e3"
+Template: "0aff055f-40f1-43a8-959d-44a232475bd9"
+Path: "/sitecore/content/pure-essence/joint-support-formula/Home/Product Support"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4612BA10-673B-4E34-B408-E7BC5F4814EC}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B3B4EC32-C1D1-42B0-B6F7-D13009B2E299}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b2E5751FF-92B0-4460-B55B-C837C42E9CDD%7d%7c%7b964C9469-6029-437C-BAAC-7BE1A44DE520%7d%7c%7bE644C9C7-F349-4412-9DED-2111599E7126%7d%7c%7bD3ED2424-1E21-4F91-BF5A-46E5719FF217%7d%7c%7b269C64E9-C8C0-457E-8FCB-E1E1BA53BD2C%7d%7c%7b7EB7E6EC-86E1-414D-A6CD-F42652510BB0%7d%7c%7b203CDB35-9A64-4082-8EE9-E0D9F6C8699D%7d%7c%7b8D0BAF35-C45A-4314-A5CE-1A838E9F7076%7d%7c%7bB23A4EC8-6F7A-44D8-92A1-CB9B5969A174%7d%7c%7b9F92B4E1-9921-4C0F-894F-68392B0E07E1%7d%7c%7bA9EE94D6-DB21-40B0-9A65-75182EEAFB65%7d%7c%7b4E916CBE-EB06-49F5-AA58-096F115B8D23%7d%7c%7b06E191CA-5B28-408C-A916-8422B4AF1388%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{2AD458B8-95FA-4E8E-A887-48B95AAE8F8B}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b32FE3B1F-6BC9-4DE9-A586-855677339EC2%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4DF3B958-70A1-4AD3-BA03-44A332BA9AAE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T192702Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Product Support
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbde8d24-1731-4087-80ad-4d262563d362"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d46f2627-ed33-4149-9ca0-6780ff9f4aee"
+      Hint: Title
+      Value: Product Support
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T192746Z

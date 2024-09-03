@@ -1,0 +1,45 @@
+﻿---
+ID: "0634a930-59c2-4816-8b5c-00c71ce177b2"
+Parent: "b1b7a502-0d4f-4a0e-a482-07fdb22538c3"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/pure-essence/detoxifying-herbal-cleanse/Home/Product Support/FAQs/Data/Text 1"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E3AFEEFE-1B29-4B06-B2B7-9602075F0AB8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T191058Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>[FAQs]</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83aa8e2a-27e3-4a3c-b668-addf5a1aff45"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T191058Z

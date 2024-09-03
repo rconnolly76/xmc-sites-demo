@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "PureEssence-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "PureEssence-CollectionMedia",
+                "path": "/sitecore/media library/Project/pure-essence",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "PureEssence-CollectionTemplates",
+                "path": "/sitecore/templates/Project/pure-essence",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "PureEssence-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/pure-essence",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "PureEssence-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/pure-essence",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "PureEssence-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/pure-essence",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "PureEssence-Branches",
+                "path": "/sitecore/templates/Branches/Project/pure-essence",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "PureEssence-SiteCollectionContent",
+                "path": "/sitecore/content/pure-essence",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

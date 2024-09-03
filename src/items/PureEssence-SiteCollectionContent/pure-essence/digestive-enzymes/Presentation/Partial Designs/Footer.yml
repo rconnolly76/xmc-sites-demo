@@ -1,0 +1,68 @@
+﻿---
+ID: "bdbe3712-4403-4a5e-a4c8-5143bf84c124"
+Parent: "57f25254-9ca1-4a80-9d29-032e8069d0b7"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/pure-essence/digestive-enzymes/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EEE8CE98-49FB-4365-A50E-E6DEF814EB5B}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b56F84F2A-1019-462D-9CD2-268D649FF468%7d%7c%7b5ACBC631-04B5-431B-802D-CDF6015FDB37%7d%7c%7bBC34F681-839F-4D17-83AF-3070AFEF0E47%7d%7c%7b0C2B30B1-A701-4E99-A72B-84E5E4A76A26%7d%7c%7b2D3F0663-66E1-49A9-96E7-F5DEFA32289B%7d%7c%7b77625297-C13A-4AEC-9013-FB460162C0E0%7d%7c%7bA041C20A-63EB-4EEE-91C5-957874064DCA%7d%7c%7b49EB23D6-72E2-48C0-93A6-D3594A98095B%7d%7c%7b32C1E401-DAEE-4965-9268-A683AE008EF6%7d%7c%7bF4D164CC-B47E-45DB-83E3-1C1EFD9B899B%7d%7c%7b71FF12AA-8B81-4210-A6C9-069A43876AE0%7d%7c%7bD1D4F5D2-329A-4840-BA3D-383283B54485%7d%7c%7bCF46ECFC-F91F-4A10-9721-40D7807A802C%7d%7c%7b3826BBE0-A405-4832-9766-C9A240C1F74D%7d%7c%7b5AEF8E74-D3CE-4641-90D5-E62A520396F6%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{05BDBC7E-A868-4B91-88F5-65CDEB89DE94}"
+          p:after="r[@uid='{EEE8CE98-49FB-4365-A50E-E6DEF814EB5B}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b2940B2EE-27B6-417C-A777-8C5E0CE8C060%7d&amp;FieldNames=%7b465268F3-0664-463C-9B56-6B7C1169A44B%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{02020030-150D-4E9B-B57A-FD794392A9B9}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b2940B2EE-27B6-417C-A777-8C5E0CE8C060%7d&amp;FieldNames=%7b465268F3-0664-463C-9B56-6B7C1169A44B%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T192054Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "569381a5-bc3a-4d3c-b805-f1982a99343f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T192118Z
