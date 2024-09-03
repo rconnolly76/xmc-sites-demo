@@ -1,0 +1,96 @@
+﻿---
+ID: "a15c5c39-e1aa-4cbc-9a18-e54e21c1d6e8"
+Parent: "f75a2b7b-a922-446d-a4fb-34221200420a"
+Template: "71496766-f5a0-437a-8375-4d44d5f39a0e"
+Path: "/sitecore/content/nutrilife-innovations/investor-relations/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7FDA52C0-ED30-4304-994E-5A3B59360800}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{AE87EA73-8B72-4628-9DB7-A1C8F1C9EA87}"
+          p:before="*"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b6CD37B60-EE60-4563-BA22-5EB004C042A8%7d&amp;FieldNames=%7b47031B1F-089E-4DA1-89F8-797B084B2776%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b3DC91543-36F8-452A-BACD-F98B0C21BCF9%7d%7c%7b6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7bA0F0B1B4-1B69-4BA7-B80F-0F1245E10CAF%7d%7c%7bB7B9EA19-356B-4FC1-80E8-3956CC8A5F2B%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b94BCE55D-68FC-4020-A364-176EF1AAAFFB%7d%7c%7bF4BC7C4C-175F-4EA4-A6D9-EFCD92507276%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d%7c%7b1FEC5EDD-5489-43F1-8C19-A092206E130D%7d%7c%7bB706790E-8CB2-4A93-B341-6E7171734B61%7d"
+          s:ph="headless-main" />
+        <r
+          uid="{1C1A4D30-875D-4C29-BA74-36E67B0931BB}"
+          p:after="r[@uid='{AE87EA73-8B72-4628-9DB7-A1C8F1C9EA87}']"
+          s:ds="local:/Data/Image 1"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="?DynamicPlaceholderId=2&amp;FieldNames=%7bA9788E8D-BED1-4516-878D-0305507603F0%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d"
+          s:ph="headless-main" />
+        <r
+          uid="{D8BCD5E7-4439-4034-A835-F595B26C5F4D}"
+          p:after="r[@uid='{1C1A4D30-875D-4C29-BA74-36E67B0931BB}']"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b8880E391-143A-4F94-BE45-7A9226BCF5DF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{9D044556-7AA5-4EA5-B806-BB6D06484C3B}"
+          p:after="r[@uid='{D8BCD5E7-4439-4034-A835-F595B26C5F4D}']"
+          s:ds="local:/Data/Text 2"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b6629D558-11DC-4119-AEE0-C399AFF06C70%7d&amp;FieldNames=%7b47031B1F-089E-4DA1-89F8-797B084B2776%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b89251DD2-C10F-4593-9FC1-A6FF62A0C5F2%7d%7c%7bA77C4C45-A221-4ABF-81D0-94F476E5B8E2%7d%7c%7b644DA9F1-DE7A-4CEB-8E43-D5D0A3B3DA4D%7d"
+          s:ph="/headless-main/container-1" />
+        <r
+          uid="{1F2F5EC9-5968-4535-8964-6DCAF3542862}"
+          p:after="r[@uid='{9D044556-7AA5-4EA5-B806-BB6D06484C3B}']"
+          s:ds="local:/Data/PromoLeft"
+          s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+          s:par="?Styles=%7bAF6045AD-4CDA-4976-9FB3-02A54719D7C9%7d&amp;FieldNames=%7b4B2A77C6-FED6-4522-AE31-C2687BCB8F7D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d%7c%7b41E4B2ED-E813-46F9-8455-C26C88E78D47%7d%7c%7b1D84575C-B71C-40B2-BE7E-65503BCD666E%7d"
+          s:ph="/headless-main/container-1" />
+        <r
+          uid="{DDCAA136-1CC7-41E1-AED3-99AAD614F19C}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/PromoRight"
+          s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+          s:par="?Styles=%7bAF6045AD-4CDA-4976-9FB3-02A54719D7C9%7d&amp;FieldNames=%7b4B2A77C6-FED6-4522-AE31-C2687BCB8F7D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d%7c%7b41E4B2ED-E813-46F9-8455-C26C88E78D47%7d%7c%7b1D84575C-B71C-40B2-BE7E-65503BCD666E%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240815T030746Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aee68471-7b76-4872-b91e-937d7907c6cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240815T030821Z
+    - ID: "e0483b1c-9d99-4824-9b74-b3373289b9bd"
+      Hint: Title
+      Value: Home

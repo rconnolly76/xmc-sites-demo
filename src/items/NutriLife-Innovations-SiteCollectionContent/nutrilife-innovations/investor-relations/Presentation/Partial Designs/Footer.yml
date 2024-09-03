@@ -1,0 +1,68 @@
+﻿---
+ID: "35cda22a-0cfc-4382-9bf1-b34864eaad26"
+Parent: "71ea01c5-547f-41f2-8aeb-4c2db04210a7"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/nutrilife-innovations/investor-relations/Presentation/Partial Designs/Footer"
+BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EB81A9CA-25C7-482A-977E-07FC3AAFD150}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b002D537C-ADCA-4EEC-875F-C1D39824D61E%7d%7c%7bE1E67401-BE06-4EEB-80D5-9E275FF6EEC3%7d%7c%7bE23322A4-C2DF-480B-A421-6C9F4A70EF1B%7d%7c%7bB8FEAC75-C53C-4428-8A6B-450D35E8077B%7d%7c%7b6C2D4AF7-431C-455B-8950-54F297CBEC17%7d%7c%7b9F7874C3-9EA0-42B6-8FF8-FF2ED302B79B%7d%7c%7bE6CABF4D-F9EB-49AF-BE81-2053F83F0BBF%7d%7c%7bEFAC6C26-08B6-4CA1-837B-322E30170C00%7d%7c%7b94924CD4-D2D4-4F59-ADAE-3D8F43860226%7d%7c%7b4DBD070B-B184-4853-AA32-FB009A22E460%7d%7c%7b4A5055A3-3D98-4884-9957-28CF90DF5C62%7d%7c%7b97625194-0CC4-4EC5-B8A4-6FFDF1E3C47F%7d%7c%7b19A6DA7D-C213-4DDF-AA80-52633713E5D1%7d%7c%7b78D324C4-5666-437C-9A89-BD2BAA761B0A%7d%7c%7bED27E3A5-9EBA-4A7C-B8DF-B9E993060C2C%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{3742B388-4D61-413C-BE1B-683AB16F1A54}"
+          p:after="r[@uid='{EB81A9CA-25C7-482A-977E-07FC3AAFD150}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b97B51248-8FA3-4046-87E7-975450B596DD%7d&amp;FieldNames=%7b47031B1F-089E-4DA1-89F8-797B084B2776%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{CACCAC82-1E45-4277-BA03-8FAD87654B1E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b97B51248-8FA3-4046-87E7-975450B596DD%7d&amp;FieldNames=%7b47031B1F-089E-4DA1-89F8-797B084B2776%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDB00EAA-5ACA-4C4D-8B88-3195D992F980}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240815T030812Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "743669c5-3cd5-4b47-9f09-6f200b65db09"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240815T030819Z

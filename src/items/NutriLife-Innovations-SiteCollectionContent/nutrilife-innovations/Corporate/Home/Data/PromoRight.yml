@@ -1,0 +1,51 @@
+﻿---
+ID: "c1c27ae6-15fe-4fc1-a639-faf8a3f957da"
+Parent: "48f9fa8c-471c-45f3-838a-1c87a9ddfd10"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/nutrilife-innovations/Corporate/Home/Data/PromoRight"
+BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{53019FE2-6D6D-456B-B1DC-AA1BB2FB9A25}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240815T170316Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Latest Research</h3><p><span style="color: rgb(17, 17, 17);">NutriLife Innovations continues to lead the way in nutrition science. Our recent breakthroughs include personalized nutritional formulas, revolutionary ingredients, and unwavering scientific excellence.</span></p><p><strong style="color: rgb(17, 17, 17);">Advanced Nutritional Formulas:</strong><span style="color: rgb(17, 17, 17);">&nbsp;NutriLife’s cutting-edge research has led to the development of personalized nutritional formulas tailored to individual needs, optimizing health outcomes.</span></p><p><strong>Revolutionary Ingredients</strong><strong style="color: rgb(17, 17, 17);">:&nbsp;</strong><span style="color: rgb(17, 17, 17);">Our team has discovered novel bioactive compounds that enhance energy metabolism and support overall well-being, setting new standards in nutrition science.</span></p><p><strong>Scientific Excellence</strong><strong style="color: rgb(17, 17, 17);">:</strong><span style="color: rgb(17, 17, 17);">&nbsp;NutriLife’s commitment to evidence-based research ensures that our products deliver real results, empowering people to lead healthier lives.</span></p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04d1752f-48db-4b6f-9b00-bf692e2f41b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T215338Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="internal" id="652942bb-380d-4b45-9b68-c07da40f9cac" anchor="" querystring="" target="" class="" text="" title=""/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="8e658bed-7f3b-4f6b-a2c1-8b97cbb89da6" />
