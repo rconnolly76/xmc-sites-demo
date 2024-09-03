@@ -1,0 +1,71 @@
+﻿---
+ID: "df2c71e1-e319-4cf5-b453-96da88f1582d"
+Parent: "79fdffed-a5d5-4820-a274-594959a4b1e7"
+Template: "57116ef3-afd3-45c8-9cc7-ad8f684dc322"
+Path: "/sitecore/content/vital-greens/vital-greens/Home/Contact Us"
+BranchID: "f0ddcddc-ff34-483a-91a2-9de0e8568b6b"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1D63E56E-E9A6-40A5-B023-817768653BC0}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{CBDFF153-9A6F-485A-AB70-2234CA2B8A93}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bD257C665-DE89-4590-93AA-61C8DDDFFE31%7d%7c%7b688DC247-1956-48F0-97A7-6DC483FE846A%7d%7c%7b8ECC3D19-1D76-4227-AD69-A8BED8650674%7d%7c%7b7CA8ACC0-9114-4904-B8B1-7704C9B20320%7d%7c%7b4FF5E4CE-3B7D-4F20-A758-A692941D9468%7d%7c%7bEAE7A9A3-1913-4CC6-92AC-9AEB9161C58C%7d%7c%7b5AD48274-24A2-48D4-B927-2813959A2A15%7d%7c%7b59AC4B7B-825F-43B7-9AD1-8CF53C7E8F18%7d%7c%7b649B2C81-3983-451E-B1D4-571F29877DD0%7d%7c%7bAF52540E-25A9-4551-85CE-06093025EDCC%7d%7c%7b4D0051C2-05DD-4F74-9C03-9F5B27104FF8%7d%7c%7bDD57E719-AF49-447E-9850-0D0ABAE1BC34%7d%7c%7b78D97901-90D4-4640-92CE-8850229ADEE4%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{932C4AC6-598D-4754-B2BE-5D86543CF7C5}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bC74476E1-D6CD-4151-B120-9DABD26FFF35%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B5865276-ACC9-4ABA-8B9E-2D114300B756}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "256781c5-d322-495f-bdc6-82deacb0d29a"
+      Hint: Title
+      Value: Contact Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T223231Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact Us
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a74baa50-a7c1-4dc7-8e68-3b596cbd75ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T223302Z

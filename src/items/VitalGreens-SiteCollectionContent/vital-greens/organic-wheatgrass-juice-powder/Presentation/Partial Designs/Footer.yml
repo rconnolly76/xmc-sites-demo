@@ -1,0 +1,68 @@
+﻿---
+ID: "14e5413d-e4f2-4eeb-9f9c-adb4c6ff32fe"
+Parent: "77832de2-0eea-401b-8f1a-f4ec83f8de3d"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/vital-greens/organic-wheatgrass-juice-powder/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E34A69A6-224E-43EF-9492-81C5868E8AB0}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bCB8A7A8C-169D-4CC1-9836-EDBA2C1ED197%7d%7c%7b6F67485E-D7BF-4E8D-BFAE-1153C49E5192%7d%7c%7bBD396E3B-6DE6-484F-B222-B8C85ED94FE2%7d%7c%7b4E5B02D1-414F-4EE5-A111-13F2C752E373%7d%7c%7b54753C45-4228-426B-A0AC-9BE89E2EFDC2%7d%7c%7b8841B52F-8C56-4931-BCC4-2ECD82591539%7d%7c%7b57FADAF2-FDF9-4280-8E42-258894693622%7d%7c%7b3982D16A-7392-4370-BC60-E356932D0909%7d%7c%7b125D8C86-2602-4869-B2CD-307CE8D41EDC%7d%7c%7b3341A8C2-4C4D-4AEF-8F65-CADE83409508%7d%7c%7b3F1232B6-9753-4D23-961C-1757AFE6A43C%7d%7c%7b6F366228-9E34-4A74-A39E-85AB1BE5DCC1%7d%7c%7b1B4ADCA2-756A-4C30-9A06-1F9CC078BCBC%7d%7c%7bF682FCCA-22F6-4FDA-9712-EC86F4ABB5CD%7d%7c%7b29429D50-F907-4EA5-873D-A151F85F80CF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{C7B1EEC3-318E-4D94-8469-64B53A96665E}"
+          p:after="r[@uid='{E34A69A6-224E-43EF-9492-81C5868E8AB0}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b774A6972-E084-4B69-9A34-739F98049A00%7d&amp;FieldNames=%7b4406DEA1-7A6C-4434-B7BD-2E03A4F29109%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{87C27533-B170-4D28-904A-D3D31E0E8E82}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b774A6972-E084-4B69-9A34-739F98049A00%7d&amp;FieldNames=%7b4406DEA1-7A6C-4434-B7BD-2E03A4F29109%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T183806Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84e0db43-4c40-4d16-b661-c60f6d1e3013"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T183826Z

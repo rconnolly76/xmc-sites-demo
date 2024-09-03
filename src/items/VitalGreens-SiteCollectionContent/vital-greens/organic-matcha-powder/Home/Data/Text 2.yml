@@ -1,0 +1,41 @@
+﻿---
+ID: "a2c1df34-2e16-45f4-933b-ebc80d88c3cc"
+Parent: "31927b36-5ec6-4afe-9cf2-a0d83aa848f0"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/vital-greens/organic-matcha-powder/Home/Data/Text 2"
+BranchID: "e9655fd2-8a94-4e28-b07a-a401e6d64cd6"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E37548D1-7A48-4316-8C34-9C41826E0A20}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T184110Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Product Overview</h2>
+        <p><span>Information on our latest advancements, breakthroughs, and news from the forefront of innovation. Stay informed about cutting-edge technologies, industry trends, and the impactful projects our team is working on. Whether it&rsquo;s new product launches, strategic partnerships, or insightful research findings, Active Fuel updates ensure you&rsquo;re always in the loop with the most exciting developments in the world of innovation. Keep an eye out for our regular updates to stay ahead of the curve!</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3013ef22-5a84-4725-b5a3-27079dd9d968"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T184110Z

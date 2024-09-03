@@ -1,0 +1,53 @@
+﻿---
+ID: "940ada08-d823-43a2-8ac0-f561649f3f68"
+Parent: "35b7e80f-c977-47cc-9831-9c838f6566c9"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/vital-greens/plant-based-collagen-booster/Home/Error/Data/Text 1"
+BranchID: "7a93ce40-5814-4e60-8902-556f106c8e15"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E4CF2376-6F96-4E3F-AFC3-52DDC1D2ACD9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T184810Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>&nbsp;</p>
+        <h1>404 - Page Not Found</h1>
+        <p>The page you&rsquo;re looking for might have been moved, renamed, or might never have existed. But don&rsquo;t worry, we&rsquo;ve got plenty of exciting things for you to explore!</p>
+        <h3>Here are some helpful links to get you back on track:</h3>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+        <h3>Need Assistance?</h3>
+        <p>If you need further assistance, feel free to contact us. We&rsquo;re here to help!</p>
+        <p>&nbsp;</p>
+        <p><span>Active Fuel Team</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c22c417-c3a5-4ab1-8dcc-ab988c46fcf0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T184810Z

@@ -1,0 +1,71 @@
+﻿---
+ID: "28dbcdef-d13b-4092-a538-01c2c4cafe3a"
+Parent: "4510cf26-8575-4fa0-a289-6f5af7053049"
+Template: "57116ef3-afd3-45c8-9cc7-ad8f684dc322"
+Path: "/sitecore/content/vital-greens/vegan-omega-3-softgels/Home/Product Support/Return Policy"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{33A537D4-0E48-41B4-8A1D-96E3B587EE90}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6FC1B77D-0F50-4108-BEF8-745DBB362DCE}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bB9740993-E45E-45B6-AE3E-6F9F6C74EAC9%7d%7c%7b08D38FFE-D1AF-4F5B-9765-A440FAB329C6%7d%7c%7b44861136-7513-4732-BCB9-6B5805D08E51%7d%7c%7b1A0F40BA-FB8B-44DE-9607-1DAB403BE8D3%7d%7c%7bF241D379-9FCA-4D75-AAF9-221DFFC6A811%7d%7c%7bF755380D-C786-4D6C-BAFE-B011DB7913F4%7d%7c%7b88986C85-B9EA-4CB2-A237-FFD78D694183%7d%7c%7b296CE974-5A65-4694-819C-5C3D5E44F125%7d%7c%7bA9CB4D1B-2323-47DD-A0B6-7CF6B58408C3%7d%7c%7b1123B8E6-6E8F-46E6-9AF3-9CC378179FCC%7d%7c%7b3BBDA1A1-3EB4-430B-B266-E54BB3EFC0E6%7d%7c%7b777589A4-9F54-4DBF-AA65-F915B3F46759%7d%7c%7bD8B0A0AE-EF8B-4887-947F-C67CD7438727%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{C841AD93-055D-4205-A6F9-9E7B04F6C270}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b6A3B545A-406A-46AB-AED2-ABED05C0A563%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6B1349E1-821E-4D3D-9F62-E59EFF7F7A9B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "256781c5-d322-495f-bdc6-82deacb0d29a"
+      Hint: Title
+      Value: Return Policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T182711Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Return Policy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e09ab8be-b1c6-481b-bb3f-91fed8e936bf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T182803Z

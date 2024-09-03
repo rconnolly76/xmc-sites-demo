@@ -1,0 +1,68 @@
+﻿---
+ID: "2715e520-66f3-419f-ab9f-4f05f5eb7709"
+Parent: "23857747-7dc4-489c-8702-f39e9d2859dc"
+Template: "57116ef3-afd3-45c8-9cc7-ad8f684dc322"
+Path: "/sitecore/content/vital-greens/organic-spirulina-tablets/Home/Where To Buy"
+BranchID: "659226b8-9d3d-43a4-86c8-caa0feee6e9c"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D85BC990-6E31-45F7-936F-BC878CB16E55}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F7FD5D29-3D1E-4534-B458-0E1C7915DE53}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bC6C6CF88-0F3F-4469-A7F3-354CA1B22459%7d%7c%7bEBDF43E4-2D56-4DB1-A687-1EC345720C50%7d%7c%7b45D630A2-455A-41A9-A8FD-A30436760464%7d%7c%7b9156F920-DE67-4B1E-94B7-161478A3F2BD%7d%7c%7bCC8F347D-6ADE-4E10-97D3-0B5F8C52D02B%7d%7c%7bE8645EAE-C716-445C-9E36-6C2FA6CD03B3%7d%7c%7b87C15883-7335-40F7-9C41-BB4F27233FD3%7d%7c%7bCF7BB60D-5C05-4CEC-A2CF-53280092B356%7d%7c%7b4A40551E-44EA-4C87-A11D-D2A801DB6FED%7d%7c%7bE7C89BCA-E920-4E9A-B72C-1158D4566484%7d%7c%7bFC4F2561-3F30-4364-A0E5-05D08D7B3719%7d%7c%7bF553EAA4-8385-454D-8E86-4A034DA8F544%7d%7c%7bB8CBB717-C243-4F15-90E8-00292EE17C70%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{484DCFF6-F953-4B77-8498-28B9FE2EBA41}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bC7865AF2-4845-44AC-AA3D-9D832BCB6607%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{55A0BA66-A757-46E5-8FCB-ABD09D73ED56}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "256781c5-d322-495f-bdc6-82deacb0d29a"
+      Hint: Title
+      Value: Where To Buy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T182202Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Where To Buy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb1c0f62-6586-4d4c-9c37-fe96248bbc10"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T182236Z
