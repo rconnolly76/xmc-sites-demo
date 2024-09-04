@@ -103,20 +103,20 @@ Languages:
         sitecore\Admin
     - ID: "82e64b52-0b8a-4a38-8c78-530c5493814e"
       Hint: Name
-      Value: Product Family Site Template
+      Value: Brand Site Template
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cfe22174-2775-4aee-83fe-34a84ed73600"
+      Value: "a70accb7-228d-45e2-b3c9-e620806afa64"
     - ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
       Hint: Description
-      Value: NutriLife Product Family Site Template with homepage, subpage, error handling, navigation, and footer.
+      Value: NutriLife Brand Site Template with homepage, subpage, error handling, navigation, and footer.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\justin.vogt@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240823T034409Z
+      Value: 20240904T191520Z
     - ID: "da855368-e5f2-4932-ae55-7f8b08a5a205"
       Hint: Content
       Value: |
