@@ -112,7 +112,7 @@ Languages:
       Value: NutriLife Site
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59831d73-c532-4155-8938-b76a8e3af86f"
+      Value: "6343d0c8-2703-4326-aa98-0f3fe566d39d"
     - ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
       Hint: Description
       Value: "The NutriLife website template offers a clean, modern design with vibrant colors and intuitive navigation, perfect for creating corporate-based websites."
@@ -122,11 +122,11 @@ Languages:
         sitecore\justin.vogt@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240918T190408Z
+      Value: 20240918T194611Z
     - ID: "da855368-e5f2-4932-ae55-7f8b08a5a205"
       Hint: Content
       Value: |
-        [{"name":"Pages","content":"Home, About"},{"name":"Components","content":"SXA"},{"name":"Integrations","content":"CDP Personalize and Analytics"}]
+        [{"name":"Pages","content":"Home, About, History, Privacy Policy, 404 and 500 Error Pages"},{"name":"Components","content":"Navigation, Image, LinkedList, Page Content, Promo, RichText, Title, Container, Column Splitter, Row Splitter"},{"name":"Integrations","content":"CDP Personalize and Analytics, Sitecore Forms"}]
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
