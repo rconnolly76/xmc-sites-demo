@@ -106,7 +106,7 @@ Languages:
       Value: Product Site Template
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a7502517-ffee-4bdf-a082-23201d13cfd5"
+      Value: "f0bfeaef-b63e-4a7b-8216-23a4baba6ece"
     - ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
       Hint: Description
       Value: NutriLife Product Site Template with homepage, subpage, error handling, navigation, and footer.
@@ -116,11 +116,11 @@ Languages:
         sitecore\justin.vogt@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240823T031643Z
+      Value: 20240918T185134Z
     - ID: "da855368-e5f2-4932-ae55-7f8b08a5a205"
       Hint: Content
       Value: |
-        [{"name":"Pages","content":"Home, About"},{"name":"Components","content":"SXA"},{"name":"Integrations","content":"CDP Personalize and Analytics"}]
+        [{"name":"Pages","content":"Home, About, Affiliate Program, Awards and Certifications, Health Benefits, How it Works, Loyalty Program, Product Details, Product Support, Sustainability, Contact Us, Press and Media, Testimonials, Where to Buy, Error Handling"},{"name":"Components","content":"Navigation, Image, LinkedList, Page Content, Promo, RichText, Title, Container, Column Splitter, Row Splitter"},{"name":"Integrations","content":"CDP Personalize and Analytics, Sitecore Forms"}]
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
