@@ -6,10 +6,10 @@ Path: /sitecore/system/Settings/Feature/JSS Experience Accelerator/NutriLife Sit
 SharedFields:
 - ID: "06d2c562-9229-4779-8807-e2a5fd2990d4"
   Hint: IsSystemModule
-  Value: 0
+  Value: 
 - ID: "11488836-d40f-40d4-beb4-1d31da7b1470"
   Hint: IncludeByDefault
-  Value: 0
+  Value: 
 - ID: "40deee2f-7595-40bd-b2c9-51f9e2346100"
   Hint: Dependencies
   Value: |
@@ -74,17 +74,17 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dca5f124-11c0-4e71-bba3-69e4601eb44b"
+      Value: "f037c661-1f59-4e64-83d0-bd327789b215"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\justin.vogt@sitecore.com
     - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
       Hint: Name
-      Value: Basic site
+      Value: NutriLife site template setup
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240814T153647Z
+      Value: 20240918T190449Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
