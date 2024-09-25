@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "NutritionClinics-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "NutritionClinics-CollectionMedia",
+                "path": "/sitecore/media library/Project/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinics-CollectionTemplates",
+                "path": "/sitecore/templates/Project/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinics-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinics-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinics-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinics-Branches",
+                "path": "/sitecore/templates/Branches/Project/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinics-SiteCollectionContent",
+                "path": "/sitecore/content/nutrition-clinics",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}
