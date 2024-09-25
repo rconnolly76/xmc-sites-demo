@@ -65,6 +65,27 @@
                 "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Product Site Template",
                 "scope": "ItemAndDescendants"
             },
+            
+            {
+                "name": "NutritionClinic-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinic-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinic-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinic-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
 
             {
                 "name": "Blank-SiteTemplate",
