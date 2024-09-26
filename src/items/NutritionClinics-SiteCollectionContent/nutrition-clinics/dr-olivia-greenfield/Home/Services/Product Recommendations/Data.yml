@@ -1,0 +1,36 @@
+﻿---
+ID: "12783a13-ab98-4c9d-882a-22ff969dbc53"
+Parent: "3fa05be2-3d9b-44e4-8627-3f841e31116b"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/nutrition-clinics/dr-olivia-greenfield/Home/Services/Product Recommendations/Data"
+BranchID: "f2c83bc6-7ef9-41cf-85da-85f22b8c48fc"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{11BCA74E-990B-4E66-A97F-17C90A89CD99}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240925T191519Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c3c03bd-4692-4049-bc98-2f172fad38f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240925T191519Z

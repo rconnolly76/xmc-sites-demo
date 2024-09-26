@@ -1,0 +1,44 @@
+﻿---
+ID: "9e1af3c2-70d7-4ad0-9e52-597a8ab4c298"
+Parent: "9899c5e6-496b-41e5-83b1-994d2e2308a8"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/nutrition-clinics/nutrition-clinic-franchise-demo-site/Presentation/Partial Designs/Footer/Data/Contact info"
+BranchID: "f3b06aa6-0764-48d9-b381-d56b7c151da5"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F60458D5-CAA6-47C3-8841-766E0FBA3B9E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240924T235615Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <span id="docs-internal-guid-7ad7f9d6-7fff-281f-d1e1-3575add84e48"></span>
+        <p><span>info@NutriLifeInnovations-NutritionClinic.com</span></p>
+        <p><span>234-234-234-234</span></p>
+        <div><span><br />
+        </span></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0eb4c340-3c58-4947-ab90-d9f6cf9b820c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240924T235615Z

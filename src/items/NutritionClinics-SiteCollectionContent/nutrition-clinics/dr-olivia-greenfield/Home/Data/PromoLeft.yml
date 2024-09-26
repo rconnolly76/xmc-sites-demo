@@ -1,0 +1,55 @@
+﻿---
+ID: "d913b65a-5101-475c-a5b1-e20466a84053"
+Parent: "ad689a58-f6a3-4a14-8289-68cffe773135"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/nutrition-clinics/dr-olivia-greenfield/Home/Data/PromoLeft"
+BranchID: "ad7a188f-efca-498b-8522-e421f17c963d"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{584ADF39-E563-4183-8250-A282ADE9E27E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240925T191528Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h2>Welcome to Our Nutrition Clinic</h2>
+        <p>Experience the benefits of personalized nutrition at our clinics:</p>
+        <ul>
+            <li><strong>Custom Nutrition Plans</strong>: Tailored to your needs, medical history, and genetic profile.</li>
+            <li><strong>Expert Guidance</strong>: One-on-one consultations with Certified Nutritionists.</li>
+            <li><strong>Thorough Assessments</strong>: Comprehensive medical evaluations to inform your plan.</li>
+            <li><strong>Genetic Insights</strong>: Advanced testing for precise nutritional recommendations.</li>
+            <li><strong>Product Recommendations</strong>: Expert advice on supplements and health products.</li>
+            <li><strong>Holistic Approach</strong>: Considering all aspects of your health and lifestyle.</li>
+            <li><strong>Ongoing Support</strong>: Continuous follow-up to keep you on track.</li>
+        </ul>
+        <p><span><strong>Transform Your Health Today</strong></span></p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b6425a11-47e8-4a4d-90ce-879427fb9807"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240925T191528Z
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{AEC11734-F172-4686-ADAF-568CAEAB51BB}" />

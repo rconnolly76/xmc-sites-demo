@@ -1,0 +1,36 @@
+﻿---
+ID: "98fac04f-a60a-41d6-bd42-a25d7dc96625"
+Parent: "ae7d415f-563d-4472-9a6d-5482550e38b0"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: "/sitecore/content/nutrition-clinics/dr-olivia-greenfield/Home/Book an Appointment/Appointment Scheduling Details/Data"
+BranchID: "ddf2a1c6-ea0c-43a6-b0b9-18895dcdec2c"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AF12065C-F571-4E21-BAA1-CF2F916EC46C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240925T191506Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13ea7c05-0ab9-4472-a193-c047e291e4e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240925T191506Z

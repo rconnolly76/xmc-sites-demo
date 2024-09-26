@@ -1,0 +1,37 @@
+﻿---
+ID: "728087a5-d402-410a-af5c-814d951f543d"
+Parent: "54542e53-c626-450f-ac60-e5aac6bd1d70"
+Template: "54542e53-c626-450f-ac60-e5aac6bd1d70"
+Path: "/sitecore/templates/Project/nutrition-clinics/Page Design Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {54542E53-C626-450F-AC60-E5AAC6BD1D70}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240924T235253Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60f07c69-7b5f-4d49-b7a7-c3ddb38c3fbc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240924T235257Z

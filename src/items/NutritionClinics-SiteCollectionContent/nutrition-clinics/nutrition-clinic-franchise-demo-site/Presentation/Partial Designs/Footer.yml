@@ -1,0 +1,68 @@
+﻿---
+ID: "efb46872-e6b7-45e4-ba1e-aa6366f8cd67"
+Parent: "1d2df9eb-0c0f-46f4-9031-85d9eca10b98"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/nutrition-clinics/nutrition-clinic-franchise-demo-site/Presentation/Partial Designs/Footer"
+BranchID: "f3b06aa6-0764-48d9-b381-d56b7c151da5"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{67167FA8-1D49-48A8-BBE2-FE42DCA6C3F5}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bBF2015DC-29AB-48D2-873A-943F786D0BEE%7d%7c%7b20CAFD9B-9E3C-4D18-A6EE-CEB3196EE4D8%7d%7c%7b2C81BB4F-3D6D-48BA-84FC-96B0D32F2E33%7d%7c%7b8C80CED2-908B-448E-A78D-E8170CC7359A%7d%7c%7bBBD3492D-7359-41B1-A969-1F4B0B3A8339%7d%7c%7bC019213D-6E0E-4F0E-8C52-BC815CE488BA%7d%7c%7bA6CDAADD-93FA-4126-A0A5-6261D8BEDCE4%7d%7c%7bC0425112-591D-4A42-96D8-A09E25BC050C%7d%7c%7b3014443A-10C7-4507-A165-127D145853B5%7d%7c%7b11412866-9C67-479A-B02A-B0E35C6A7255%7d%7c%7bB5C70F95-2E0A-446F-8BF7-CEB440BDB284%7d%7c%7b14B153E4-873E-47F5-8E40-F380051CFBD5%7d%7c%7b749D1E1C-A7C2-4862-99C1-BA99F411BACC%7d%7c%7bB5053A1C-6037-4CAA-92F5-FB16563844D0%7d%7c%7bE23DC8D4-FC8A-4347-A445-1CFB77306D7C%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{2E338FA7-11F9-4838-B69B-064C3638D8B7}"
+          p:after="r[@uid='{67167FA8-1D49-48A8-BBE2-FE42DCA6C3F5}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bFBCB661E-3D61-43DD-B932-2266A1942897%7d&amp;FieldNames=%7b5C44C885-7116-4BB3-B030-C4542BD2857D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{9D51E63E-9071-45BE-94C6-E963B07D1386}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bFBCB661E-3D61-43DD-B932-2266A1942897%7d&amp;FieldNames=%7b5C44C885-7116-4BB3-B030-C4542BD2857D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{33BF10F5-E2A8-4EB2-8C99-0EC2DB285AC5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240924T235614Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ec39c63-e641-4d47-a133-15d7eb90e1eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240924T235629Z
