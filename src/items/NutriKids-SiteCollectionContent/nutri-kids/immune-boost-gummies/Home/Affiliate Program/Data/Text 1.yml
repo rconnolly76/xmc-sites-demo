@@ -1,0 +1,49 @@
+﻿---
+ID: "3b2d92b9-a7fc-49f8-b9ee-44eca4dfce8c"
+Parent: "5d164b21-f9a1-46a4-a723-61d304e6d120"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/nutri-kids/immune-boost-gummies/Home/Affiliate Program/Data/Text 1"
+BranchID: "9f657f57-0f18-4622-86a8-cb7dfab13199"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{70928882-89C4-4664-8443-874F06A8C599}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T234650Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Affiliate Program</h1>
+        <p>
+        </p>
+        <p style="margin-left: 0px;">&nbsp;</p>
+        <ul style="color: #111111; background-color: #f7f7f7; margin: 12px 0px 0px;">
+            <li>Information on how to become an affiliate</li>
+            <li>Benefits and commission structure</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e241c2c-7dec-470e-9f80-62be730f79a0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T234650Z

@@ -1,0 +1,71 @@
+﻿---
+ID: "1d1cd3a2-de5d-4518-897a-1d5f403e0bd2"
+Parent: "1f146c4d-6015-4179-9c45-f9184561f6b0"
+Template: "57116ef3-afd3-45c8-9cc7-ad8f684dc322"
+Path: "/sitecore/content/vital-greens/plant-based-protein-powder/Home/Product Support/Technical Support"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{72215375-3CD6-46D7-9EF4-40891A4DD26B}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2CD173FF-CCE2-404F-8153-BFC4485041C7}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b06DA3F04-4F1C-4929-BE5A-94AC379B54DC%7d%7c%7b7B200861-FFF7-4225-A8F1-7FC91A1679D3%7d%7c%7bA171D59E-DF97-4900-AB26-3CC78861EBA8%7d%7c%7bE1B6E1C7-7A8C-43AA-90AE-03D12E4917FC%7d%7c%7b8C327DCC-E685-4A58-A94A-AD0DF62C7839%7d%7c%7b02C61FBA-9B97-41FC-8FB6-43F305744820%7d%7c%7bC9CFEDDC-6843-4011-A379-D4EE945514F7%7d%7c%7b0032F5F6-8FF3-4442-A207-075A26A85030%7d%7c%7b8D3D8574-26AE-4CB1-BB46-C739BA49D39B%7d%7c%7b43A46258-8BBB-4782-9679-3301ACC57BC1%7d%7c%7b40E5E4CD-8D52-4D4E-9A3A-87575538EA37%7d%7c%7bC611B0EF-5239-43C5-8C4B-3169040B1EC4%7d%7c%7b4FD49188-6C19-4301-96C6-0CE60823A598%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{4BC407EA-D9A9-4FE8-9256-38B98815BE37}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bBA005F50-C596-4D85-9955-D3B787E47E26%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A0711AAB-CD75-474C-84AA-BA9FBFBB62DF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "256781c5-d322-495f-bdc6-82deacb0d29a"
+      Hint: Title
+      Value: Technical Support
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T165835Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Technical Support
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8848f9e4-ad9f-423d-94f9-5ecf0d5b1e34"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T165915Z

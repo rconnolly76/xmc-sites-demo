@@ -1,0 +1,68 @@
+﻿---
+ID: "81c9d790-fe5a-4746-8f15-ca97620b38d0"
+Parent: "b57ca427-c594-4a3e-925a-cfaca7064476"
+Template: "0aff055f-40f1-43a8-959d-44a232475bd9"
+Path: "/sitecore/content/pure-essence/essential-oil-blends/Home/Product Support"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D602BF78-8E4B-48F1-AE2D-7812C89A9188}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1DF25EEE-0CBC-4BB4-B951-928363D9C1E7}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b30D24603-E0E1-4C55-AE6B-ADB06345E355%7d%7c%7b326C433A-FB60-4C0B-AC96-7C098765F4BC%7d%7c%7b2518FF70-5639-4E9A-98F3-A2A366AD86AA%7d%7c%7b686990FC-8959-433E-A2F0-8D9DB3624F10%7d%7c%7b2D44C36D-B8C4-49A4-BBD9-B2DBB43984F9%7d%7c%7b18FF6C8A-5E7E-43BC-BF09-D142FABDFCCA%7d%7c%7bD886916B-D181-4553-BB75-886D597C16C7%7d%7c%7bEBC781A0-DBEA-4834-959E-838F19513D0E%7d%7c%7bB9EB7606-E35A-4363-A4A0-3815CBF7B571%7d%7c%7b8D0371FE-3E75-4ECF-A594-3EC6E520B5EE%7d%7c%7b7DA3A8FA-6C87-45A6-B286-E3F25CE41095%7d%7c%7b5430C906-7D58-48FE-BBC9-1767F75961B2%7d%7c%7b6AB2E6FE-ABA9-4749-BE02-4A9EB855BC7F%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{06A89CC0-0C91-4C3C-94D9-E00C77D8E071}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b150CAB35-EE90-40BC-B5D2-EBE7C72671AC%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4DF3B958-70A1-4AD3-BA03-44A332BA9AAE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T185716Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Product Support
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aea73837-c263-447e-9370-8d6025b858b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d46f2627-ed33-4149-9ca0-6780ff9f4aee"
+      Hint: Title
+      Value: Product Support
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T185757Z

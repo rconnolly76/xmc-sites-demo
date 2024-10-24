@@ -1,0 +1,102 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "SiteCreationTemplates",
+    "items": {
+        "includes": [
+            {
+                "name": "NutriLife-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/NutriLife Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/NutriLife Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/NutriLife Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/NutriLife Site",
+                "scope": "ItemAndDescendants"
+            },
+
+            {
+                "name": "ProductFamily-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "ProductFamily-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Product Family Site Template",
+                "scope": "ItemAndDescendants"
+            },
+
+            {
+                "name": "Product-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/Product Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "Product-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/Product Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "Product-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/Product Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "Product-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Product Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            
+            {
+                "name": "NutritionClinic-BranchTemplate",
+                "path": "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinic-TemplateMedia",
+                "path": "/sitecore/media library/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinic-PowershellScript",
+                "path": "/sitecore/system/Modules/PowerShell/Script Library/JSS SXA/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutritionClinic-SiteTemplate",
+                "path": "/sitecore/system/Settings/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template",
+                "scope": "ItemAndDescendants"
+            },
+
+            {
+                "name": "Blank-SiteTemplate",
+                "path": "/sitecore/system/Settings/Foundation/JSS Experience Accelerator/Scaffolding/Templates/Empty Site",
+                "scope": "SingleItem"
+            },
+            {
+                "name": "Blank-SiteTemplate-Media",
+                "path": "/sitecore/media library/Foundation/JSS Experience Accelerator/bzblog-16templates-blank-template",
+                "scope": "SingleItem"
+            }            
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "VitalGreens-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "VitalGreens-CollectionMedia",
+                "path": "/sitecore/media library/Project/vital-greens",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "VitalGreens-CollectionTemplates",
+                "path": "/sitecore/templates/Project/vital-greens",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "VitalGreens-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/vital-greens",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "VitalGreens-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/vital-greens",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "VitalGreens-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/vital-greens",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "VitalGreens-Branches",
+                "path": "/sitecore/templates/Branches/Project/vital-greens",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "VitalGreens-SiteCollectionContent",
+                "path": "/sitecore/content/vital-greens",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

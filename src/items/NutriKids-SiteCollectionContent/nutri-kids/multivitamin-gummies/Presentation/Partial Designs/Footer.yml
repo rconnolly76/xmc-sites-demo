@@ -1,0 +1,68 @@
+﻿---
+ID: "f231564f-1ae6-48ae-9abc-1547892580c5"
+Parent: "90e4b686-2431-4c4b-8087-24d6dec728b0"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/nutri-kids/multivitamin-gummies/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4BCD6ED1-F308-431B-946D-E612BB64CAF1}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bF0AE9D3B-3086-46D1-BC18-5E3F70ED9ED7%7d%7c%7b40471E2E-BB7C-456E-983F-0FED1D54696F%7d%7c%7bE6EBBE43-10A6-4860-B827-FC17F7348ACF%7d%7c%7b1BCBEA39-7D87-4A44-BF02-2551C920C2FB%7d%7c%7b69446217-7EEE-4B2B-BBCC-4D5757803113%7d%7c%7b93EAC8F2-B86C-433F-9FEE-B3A70D11D692%7d%7c%7bE4077DEB-E7BC-458B-BE07-9CA638CEF4DB%7d%7c%7b3D8AD439-6759-42C4-BADF-DD2C8D701E7F%7d%7c%7b3063266C-1CB2-4733-B2AB-103BB6032105%7d%7c%7bEB91CC74-4427-4CEE-8CD2-21511A550C7E%7d%7c%7b16F58335-27BC-4D88-A921-E7FFDE8F2939%7d%7c%7b0EE1BB5C-75AE-4C59-A99D-37B4DB34C5A0%7d%7c%7b0E1C9ADB-8A1F-4889-87D1-486F53D6A95A%7d%7c%7b40981518-EF15-46CA-BAD9-37B7A16BA4E9%7d%7c%7b9521EC8D-BE52-4204-8448-871C0F6E3FA5%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{4ED806C3-6FD4-47D8-8105-C990DE25ED17}"
+          p:after="r[@uid='{4BCD6ED1-F308-431B-946D-E612BB64CAF1}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b49710E1D-9E82-42FD-9566-28EE3C4BD2E6%7d&amp;FieldNames=%7bCFE0B441-66E4-4979-A6C0-8D7EA4DFCE67%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{AE99E88F-3730-4C38-B7AE-ED71D405905E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b49710E1D-9E82-42FD-9566-28EE3C4BD2E6%7d&amp;FieldNames=%7bCFE0B441-66E4-4979-A6C0-8D7EA4DFCE67%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T220540Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b30784f6-b5eb-40a4-8743-8c55085050a6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T220602Z

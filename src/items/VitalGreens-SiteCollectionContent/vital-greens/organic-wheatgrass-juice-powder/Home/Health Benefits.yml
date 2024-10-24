@@ -1,0 +1,71 @@
+﻿---
+ID: "70cbbd4c-92fd-4ab7-aa8c-7cd568e4c1b6"
+Parent: "b3a03717-d91d-4034-950d-d53fbc38ddb1"
+Template: "57116ef3-afd3-45c8-9cc7-ad8f684dc322"
+Path: "/sitecore/content/vital-greens/organic-wheatgrass-juice-powder/Home/Health Benefits"
+BranchID: "972b460b-919a-4046-824e-0f6d7a411285"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AF2D223F-B024-431E-A3FC-242ED5E005B2}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1CDA41A9-D671-4A05-BB13-4AC06E695C74}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bBD396E3B-6DE6-484F-B222-B8C85ED94FE2%7d%7c%7b4E5B02D1-414F-4EE5-A111-13F2C752E373%7d%7c%7b54753C45-4228-426B-A0AC-9BE89E2EFDC2%7d%7c%7b8841B52F-8C56-4931-BCC4-2ECD82591539%7d%7c%7b57FADAF2-FDF9-4280-8E42-258894693622%7d%7c%7b3982D16A-7392-4370-BC60-E356932D0909%7d%7c%7b125D8C86-2602-4869-B2CD-307CE8D41EDC%7d%7c%7b3341A8C2-4C4D-4AEF-8F65-CADE83409508%7d%7c%7b3F1232B6-9753-4D23-961C-1757AFE6A43C%7d%7c%7b6F366228-9E34-4A74-A39E-85AB1BE5DCC1%7d%7c%7b1B4ADCA2-756A-4C30-9A06-1F9CC078BCBC%7d%7c%7bF682FCCA-22F6-4FDA-9712-EC86F4ABB5CD%7d%7c%7b29429D50-F907-4EA5-873D-A151F85F80CF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{36E0D69E-784F-4560-B8D6-A2C4ADBB8F55}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b4406DEA1-7A6C-4434-B7BD-2E03A4F29109%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{63C1DE4D-7CDE-4EF4-805B-89A491792CF5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "256781c5-d322-495f-bdc6-82deacb0d29a"
+      Hint: Title
+      Value: Health Benefits
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T183749Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Health Benefits
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38656180-a90b-4bcc-9980-fa4d4cda6b4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T183834Z

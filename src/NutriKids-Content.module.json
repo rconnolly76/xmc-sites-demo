@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "NutriKids-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "NutriKids-CollectionMedia",
+                "path": "/sitecore/media library/Project/nutri-kids",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriKids-CollectionTemplates",
+                "path": "/sitecore/templates/Project/nutri-kids",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriKids-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/nutri-kids",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriKids-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/nutri-kids",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriKids-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/nutri-kids",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriKids-Branches",
+                "path": "/sitecore/templates/Branches/Project/nutri-kids",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriKids-SiteCollectionContent",
+                "path": "/sitecore/content/nutri-kids",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

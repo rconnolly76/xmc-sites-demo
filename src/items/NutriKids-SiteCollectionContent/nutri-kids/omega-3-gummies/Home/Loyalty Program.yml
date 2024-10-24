@@ -1,0 +1,71 @@
+﻿---
+ID: "79a1912f-5756-464f-8f1f-bc4d13977c12"
+Parent: "591501e7-6e7c-400a-a6be-32573b3cf92d"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/omega-3-gummies/Home/Loyalty Program"
+BranchID: "34180d76-e164-4200-9908-d32fe99219b0"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0E355F6A-0087-420F-9C0D-61E2B0872726}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F3DE4B38-76C8-4043-8446-EDD356774DA4}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b3C1F33B4-7D14-42C7-8D23-3D593105A9D2%7d%7c%7bE6E3CD93-ED65-498C-9F02-740FFC99C3B9%7d%7c%7b697E84CF-847D-4AAE-9A86-1A8C8DC18100%7d%7c%7b6DE8C668-A203-4047-9ABA-5AEFC4898618%7d%7c%7b130AC931-7154-49C1-8608-1A7C7AD77BE0%7d%7c%7b28FF1CCC-1689-43D4-819E-9E3D9147B204%7d%7c%7b2B307EC4-5877-4501-8AFC-CC99A412EBF5%7d%7c%7b520CCD0F-737F-4DF9-828B-C160F5E3C0A6%7d%7c%7b7A90CBD1-23E8-4597-86BC-03D6F7392208%7d%7c%7bE71533F6-CE75-449D-83E0-D6D8050A539D%7d%7c%7b4B5BA342-F53F-4217-AC3D-4D4D341FA5CA%7d%7c%7b7E4B7C8B-91AF-4BF9-ACAB-57FC7E8930EC%7d%7c%7b3B29B792-BAFD-469C-A555-4F70489C10F1%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{8874434E-0B2A-46E0-B75C-6C1D3A6FCDBE}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b14D65F98-D05A-457F-9A76-36E2B850B776%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B86A727C-439E-4543-8B71-F6F30160BD44}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T223632Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Loyalty Program
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27d88b77-257a-482b-ac11-5896d5f20748"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Loyalty Program
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T223714Z

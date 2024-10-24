@@ -1,0 +1,79 @@
+﻿---
+ID: "4b28693f-5ddb-485f-8e2c-c2b9ef8635c7"
+Parent: "2d93f89e-4f69-469e-946d-79e407c84fdb"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/iron-vitamin-c-chewables/Home/Error"
+BranchID: "7a93ce40-5814-4e60-8902-556f106c8e15"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 5000
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FDC653A3-17DA-4837-9E29-FB74714B3C12}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{6BC95E7A-14A3-44E3-96DF-47EE8086724E}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bF1E1AF94-2FE2-4DDC-ACA3-07346D32D8C2%7d%7c%7b7C37C19F-FAA9-4EC8-9671-A418914D94CD%7d%7c%7b003EB37D-B205-4863-A252-DAA4F5F7FFB1%7d%7c%7b0D61E229-0F7F-4888-83E7-288F42D971E2%7d%7c%7b5A42B42C-D994-4019-8EF3-57EC6C9A8F28%7d%7c%7b1ADA2638-C0B3-44A8-81A6-66B363691E12%7d%7c%7bA0166148-DA45-4320-B104-11E1CB29A272%7d%7c%7bE007BECD-D67A-479B-9A6F-09D8F74ABDA5%7d%7c%7bAA9EE9C5-71F8-49D3-BFF1-CB4D937EB4A5%7d%7c%7b70AD3116-4392-436C-B463-2ADAE5137308%7d%7c%7b986E99C5-9D0E-461D-A107-23EC935F09A7%7d%7c%7b3785851C-4B4D-4235-92B7-C76285CCCD01%7d%7c%7b01E07762-3EB3-46A1-ADD6-074330A8AD69%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{3B047496-B290-4942-9691-5979E654C3B4}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b02A62601-7BF5-4488-9F9C-DB8F70559FFC%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A33A53FB-EC68-4E5B-AAA4-2DF44194EE8C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T041105Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Error
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "841145de-2a16-425a-9d8a-ecc655dc8d49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Error
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T041134Z

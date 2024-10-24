@@ -1,0 +1,71 @@
+﻿---
+ID: "33a090ae-af07-4ad7-8d88-39dbdaf8d44d"
+Parent: "d577b5d0-1834-49b9-82a7-e2ac44507303"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/detox-tea/Home/Loyalty Program"
+BranchID: "34180d76-e164-4200-9908-d32fe99219b0"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B1C0BF49-FCBD-4BED-83B2-1ACE8EBB629F}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8A096F9E-3639-4AA6-A55A-E3C4498631BB}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b4CD4AD29-4D40-4F36-9FB8-15217B1C843A%7d%7c%7b6F834A0F-324C-4D43-B30F-1141E2204F52%7d%7c%7b1677F497-DFAB-4DB1-82CB-1340EE1417C1%7d%7c%7bD38E5E83-31EF-4AC2-ACEF-827EC0B9EECD%7d%7c%7bEA902B52-7371-44B3-95D6-BFE8BAEFAB29%7d%7c%7b33C8506E-5BD8-4F5A-B442-80187E91A755%7d%7c%7bA93A2A1A-3A0F-4DDA-AFE8-70D94DA9F213%7d%7c%7b29E05F90-2BF4-46C6-950D-6C1FD77C1C7B%7d%7c%7b81B9CF89-8FB7-4138-8F95-78131C3146CC%7d%7c%7b907CB7EF-8C80-4A9B-BC27-525B4D72F059%7d%7c%7b39B7B3A7-A88C-4AA6-A22A-972EA7E4BEF0%7d%7c%7bF4243283-0CF7-4DC8-AD57-A54F44FDE394%7d%7c%7b6CB5FC1C-BD3E-440C-80B6-F39ACA1851EA%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{6A3E2DE6-D6DF-4E96-AE6B-7518BDAB6BEB}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bB30248A6-2161-4117-A9F3-8F7394ED2E9F%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B86A727C-439E-4543-8B71-F6F30160BD44}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T181851Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Loyalty Program
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27e3607a-498b-4035-98f6-95a6fdfdb272"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: Loyalty Program
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T181933Z

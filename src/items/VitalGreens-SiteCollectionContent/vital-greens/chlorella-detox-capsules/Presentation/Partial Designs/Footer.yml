@@ -1,0 +1,68 @@
+﻿---
+ID: "054f262f-096e-47ed-abf5-c84f1f822a29"
+Parent: "7b2b90b9-0691-44db-a034-7abac77ee26f"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/vital-greens/chlorella-detox-capsules/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1079E5BA-3958-455E-B363-93406F07BB39}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bF92BFCCB-E549-46D4-91EE-BB420A42EBE3%7d%7c%7bCAE8B2EC-E03C-46F0-BDE5-FB96A842D87A%7d%7c%7bF9F0D432-4802-45D0-98B8-41C0CE33A0CE%7d%7c%7b394C9E90-ABC2-4704-83E2-119730834B4C%7d%7c%7b66E7CD96-200E-48BE-8AC9-B9EBAE2B2C2F%7d%7c%7b969A33A0-8A45-4291-AE58-196C3284ABEA%7d%7c%7bB9AEF597-37FD-4C66-9136-98E1DA226428%7d%7c%7b0782ED41-BC77-42AA-9AB3-F8C42FF6CA8E%7d%7c%7bA1613275-59BA-40A8-8C25-E144CCEBB1E8%7d%7c%7b61775ACB-4106-4EE7-8D53-CD77DC9DB1E1%7d%7c%7bBA0204E2-D394-4E6F-81B0-B186196ACC42%7d%7c%7b21F21BE8-1ABB-436D-93A8-5CA250DC62F4%7d%7c%7bB7DFEED1-543B-477F-8420-BEDB29391E12%7d%7c%7bA75DF24B-4D24-4686-A2D3-66317A9BDCA1%7d%7c%7bD7731BF5-86BF-4571-BF32-2D68D4E73F39%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{7A171056-B71B-4EAD-9EE0-4524B64F76FA}"
+          p:after="r[@uid='{1079E5BA-3958-455E-B363-93406F07BB39}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bBF86273F-1A20-465A-955C-DAD22181A18F%7d&amp;FieldNames=%7b1F9AE70F-F476-4F16-AB2B-9D948F1B8DEF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{85A925F2-59F1-4B4B-87E1-2C1E3320A29C}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bBF86273F-1A20-465A-955C-DAD22181A18F%7d&amp;FieldNames=%7b1F9AE70F-F476-4F16-AB2B-9D948F1B8DEF%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T182623Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00139385-271e-4a09-ba9b-b7d79706343c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T182645Z

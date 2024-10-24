@@ -1,0 +1,789 @@
+﻿---
+ID: "69aa5472-623a-45a4-b173-37c8002c65e2"
+Parent: "40aaa0c0-75c0-4be5-8b4f-182c09e843f6"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/JSS SXA/Nutrition Clinic Franchise Site Template/Functions/Add Nutrition Clinic Renderings
+SharedFields:
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    Import-Function Get-ItemByIdSafe
+        
+    function Get-LocalStyle {
+        param (
+            $Site,
+            $styleIds
+        )
+        $styles = Get-ChildItem -Path "$($Site.Paths.Path)/Presentation/Styles" -Recurse 
+        $styleIds | % {
+            $styleId = $_
+            $style = Get-ItemByIdSafe $styleId
+            $styles | ? { $_.Value -eq $style.Value } | % { $_.ID }
+        }
+    }
+    
+    # function Set-DefaultTemplateAndLayout {
+    #     param (
+    #         $Site,
+    #         $item,
+    #         $targetItemPath,
+    #         $renderingContainerDefinition,
+    #         $renderingRichTextDefinition,
+    #         $rtVariant
+    #     )
+    
+    #     # change Target Item template
+    #     $targetItem = Get-Item -Path $targetItemPath -Language $Site.Language
+    #     $targetItem.ChangeTemplate($item.Template)
+    #     $targetItem = Get-Item -Path $targetItemPath -Language $Site.Language
+    
+    #     # add Target Item layout
+    #     $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+    #     $styles = [string]::Join('|', $styles)
+    #     Add-Rendering -Item $targetItem -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+    #     Add-Rendering -Item $targetItem -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+    #     if ($targetItem."NavigationTitle" -ne $null) {
+    #         $targetItem."NavigationTitle" = $targetItem.Name
+    #     }
+    #     if ($targetItem."Title" -ne $null) {
+    #         $targetItem."Title" = $targetItem.Name
+    #     }
+    # }
+        
+    
+    function Invoke-ModuleScriptBody {
+        [CmdletBinding()]
+        param(
+            [Parameter(Mandatory = $true, Position = 0 )]
+            [Item]$Site,
+        
+            [Parameter(Mandatory = $true, Position = 1 )]
+            [Item[]]$TenantTemplates		
+        )
+        
+        begin {
+            Write-Verbose "Cmdlet Invoke-ModuleScriptBody - Begin"
+            Import-Function Get-ProjectTemplateBasedOnBaseTemplate
+        }
+        
+        process {
+            Write-Verbose "Cmdlet Invoke-ModuleScriptBody - Process"
+            $sitePath = $Site.Paths.Path
+            Write-Verbose "My site: $sitePath"
+    
+            # handle missing styles folder
+            if (-not (Test-Path "$sitePath/Presentation/Styles")) {
+                Import-Function Invoke-AddItem
+                $action = Get-Item . -ID '{B2486523-7487-4526-978F-AD2E986B5CC4}'
+                Invoke-AddItem $Site $action
+            }
+            
+            # ensure site modules installed
+            $requiredModules = "{4342A029-0186-4B0D-8959-FFEF4FD998C2}", "{F0EA389E-F78D-440B-9429-F04FE735344A}", "{1FD78E81-59A6-4513-90F1-165A95D4B16B}", "{385F31BE-FF0C-4D84-A627-9ECD21295AFD}", "{66B9C663-2602-42B1-A5A2-3D04DB6C506A}"
+            $scaffoldingService = [Sitecore.DependencyInjection.ServiceLocator]::ServiceProvider.GetService([Sitecore.XA.Foundation.Scaffolding.Services.IScaffoldingService])
+            $installedModules = $scaffoldingService.GetModules($Site).FeatureItemId
+            if ($installedModules.Count -eq 0) {
+                # if the function is called during new site creation - get the list of modules which are being installed
+                if ($DefinitionItems -ne $null) {
+                    $installedModules = $DefinitionItems.ID
+                }
+            }
+            $definitionItems = Compare-Object $installedModules $requiredModules | ? { $_.SideIndicator -eq "=>" } | % { $_.inputobject } | % { Get-ItemByIdSafe $_ }
+            if ($definitionItems.Count -gt 0) {
+                Add-SiteModule $SiteItem $definitionItems
+            }
+            
+            # ensure site items exists - in case modules installed earlier
+            $requiredModules | % {
+                $actions = Get-ItemByIdSafe $_ | Get-Action | ? { $_.TemplateName -eq "AddItem" }
+                foreach ($action in $actions) {
+                    Invoke-AddItem $site $action
+                }
+            }
+            
+            $styles = Get-ChildItem -Path "$sitePath/Presentation/Styles"
+            Get-ChildItem -Path "/sitecore/templates/Branches/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Site Template/Styles" | % {
+                $styleFolder = $_
+                $newParent = $styles | ? { $_.Name -eq $styleFolder.Name } | Select-Object -First 1
+                if ($newParent) {
+                    $styleFolder.Children | ? { $_.TemplateName -eq "Style" } | Copy-Item -DestinationItem $newParent
+                }
+                else {
+                    $styleFolder | Copy-Item -Destination "$sitePath/Presentation/Styles" -Recurse
+                }
+            }
+        
+            $service = [Sitecore.DependencyInjection.ServiceLocator]::ServiceProvider.GetService([Sitecore.XA.Foundation.Variants.Abstractions.Services.IAvailableRenderingVariantService])
+                
+            $item = Get-Item -Path "$sitePath/Home" -Language $Site.Language
+                
+            $renderingRichText = Get-Item -Path '/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Page Content/RichText'
+            $renderingPromo = Get-Item -Path '/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Page Content/Promo'
+            $renderingImage = Get-Item -Path '/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Media/Image'
+            $renderingNavigation = Get-Item -Path '/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Navigation/Navigation'
+            $renderingContainer = Get-Item -Path '/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Page Structure/Container'
+        
+            # prepare rendering definitions
+            $renderingRichTextDefinition = $renderingRichText | New-Rendering
+            $renderingPromoDefinition = $renderingPromo | New-Rendering
+            $renderingImageDefinition = $renderingImage | New-Rendering
+            $renderingNavigationDefinition = $renderingNavigation | New-Rendering
+            $renderingContainerDefinition = $renderingContainer | New-Rendering
+            
+            # prepare rendering variants        
+            $rtVariant = $service.GetAvailableRenderingVariants($Site, $renderingRichText.Name, $renderingRichText.ID, $item.TemplateID)
+            $promoVariant = $service.GetAvailableRenderingVariants($Site, $renderingPromo.Name, $renderingPromo.ID, $item.TemplateID)
+            $navigationVariant = $service.GetAvailableRenderingVariants($Site, $renderingNavigation.Name, $renderingNavigation.ID, $item.TemplateID)
+            $imgVariant = $service.GetAvailableRenderingVariants($Site, $renderingImage.Name, $renderingImage.ID, $item.TemplateID)
+            $imgVariant = New-Item -ItemType $imgVariant.TemplateID -Path $imgVariant.Parent.Paths.Path -Name "Banner" -Language $Site.Language
+            $imgVariant.'__Sortorder' = 200
+            
+            # add Home layout
+            $styles = Get-LocalStyle $Site ("{1A79197B-9427-4285-A2CF-C43A89AEF2B0}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $item -PlaceHolder "headless-main" -Instance $renderingRichTextDefinition -Parameter @{ "Styles" = $styles; "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{3DC91543-36F8-452A-BACD-F98B0C21BCF9}|{6F83979B-4C3F-4EEC-8C64-F8DA29D83961}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{A0F0B1B4-1B69-4BA7-B80F-0F1245E10CAF}|{B7B9EA19-356B-4FC1-80E8-3956CC8A5F2B}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{94BCE55D-68FC-4020-A364-176EF1AAAFFB}|{F4BC7C4C-175F-4EA4-A6D9-EFCD92507276}|{7DF615F7-0A53-42E1-A164-2B36D6126314}|{1FEC5EDD-5489-43F1-8C19-A092206E130D}|{B706790E-8CB2-4A93-B341-6E7171734B61}" } -DataSource "local:/Data/Text 1"
+            Add-Rendering -Item $item -PlaceHolder "headless-main" -Instance $renderingImageDefinition -Parameter @{ "FieldNames" = $imgVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "2"; } -DataSource "local:/Data/Image 1"
+    			
+            # add styles for Container-1
+            $styles = Get-LocalStyle $Site ("{17B9ED3A-88AF-4451-89A1-650C88C47547}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $item -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            $styles = Get-LocalStyle $Site ("{94B228C5-A117-4BE6-8F85-A6F438A52FFE}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $item -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "Styles" = $styles; "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{89251DD2-C10F-4593-9FC1-A6FF62A0C5F2}|{A77C4C45-A221-4ABF-81D0-94F476E5B8E2}|{644DA9F1-DE7A-4CEB-8E43-D5D0A3B3DA4D}" } -DataSource "local:/Data/Text 2"
+            $styles = Get-LocalStyle $Site ("{C294B0AE-AD9D-49AC-9B2E-9893F84E167B}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $item -PlaceHolder "/headless-main/container-1" -Instance $renderingPromoDefinition -Parameter @{ "Styles" = $styles; "FieldNames" = $promoVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{81225C08-5783-4BED-A86A-AB2B87198885}|{41E4B2ED-E813-46F9-8455-C26C88E78D47}|{1D84575C-B71C-40B2-BE7E-65503BCD666E}" } -DataSource "local:/Data/PromoLeft"
+            Add-Rendering -Item $item -PlaceHolder "/headless-main/container-1" -Instance $renderingPromoDefinition -Parameter @{ "Styles" = $styles; "FieldNames" = $promoVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{81225C08-5783-4BED-A86A-AB2B87198885}|{41E4B2ED-E813-46F9-8455-C26C88E78D47}|{1D84575C-B71C-40B2-BE7E-65503BCD666E}" } -DataSource "local:/Data/PromoRight"
+            if ($item."NavigationTitle" -ne $null) {
+                $item."NavigationTitle" = $item.Name
+            }
+            if ($item."Title" -ne $null) {
+                $item."Title" = $item.Name
+            }
+              
+            
+            # change About template
+            $about = Get-Item -Path "$sitePath/Home/About" -Language $Site.Language
+            $about.ChangeTemplate($item.Template)
+            $about = Get-Item -Path "$sitePath/Home/About" -Language $Site.Language
+        
+            # add About layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $about -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $about -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($about."NavigationTitle" -ne $null) {
+                $about."NavigationTitle" = $about.Name
+            }
+            if ($about."Title" -ne $null) {
+                $about."Title" = $about.Name
+            }
+            
+    
+            # change Book an Appointment template
+            $bookAppointment = Get-Item -Path "$sitePath/Home/Book an Appointment" -Language $Site.Language
+            $bookAppointment.ChangeTemplate($item.Template)
+            $bookAppointment = Get-Item -Path "$sitePath/Home/Book an Appointment" -Language $Site.Language
+        
+            # add Book an Appointment layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $bookAppointment -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $bookAppointment -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($bookAppointment."NavigationTitle" -ne $null) {
+                $bookAppointment."NavigationTitle" = $bookAppointment.Name
+            }
+            if ($bookAppointment."Title" -ne $null) {
+                $bookAppointment."Title" = $bookAppointment.Name
+            }
+            if ($bookAppointment."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $bookAppointment."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Appointment Scheduling Details template
+            $appointmentScheduling = Get-Item -Path "$sitePath/Home/Book an Appointment/Appointment Scheduling Details" -Language $Site.Language
+            $appointmentScheduling.ChangeTemplate($item.Template)
+            $appointmentScheduling = Get-Item -Path "$sitePath/Home/Book an Appointment/Appointment Scheduling Details" -Language $Site.Language
+        
+            # add Appointment Scheduling Details layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $appointmentScheduling -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $appointmentScheduling -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($appointmentScheduling."NavigationTitle" -ne $null) {
+                $appointmentScheduling."NavigationTitle" = $appointmentScheduling.Name
+            }
+            if ($appointmentScheduling."Title" -ne $null) {
+                $appointmentScheduling."Title" = $appointmentScheduling.Name
+            }
+            if ($appointmentScheduling."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $appointmentScheduling."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Online Booking Form template
+            $onlineBooking = Get-Item -Path "$sitePath/Home/Book an Appointment/Online Booking Form" -Language $Site.Language
+            $onlineBooking.ChangeTemplate($item.Template)
+            $onlineBooking = Get-Item -Path "$sitePath/Home/Book an Appointment/Online Booking Form" -Language $Site.Language
+        
+            # add Online Booking Form layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $onlineBooking -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $onlineBooking -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($onlineBooking."NavigationTitle" -ne $null) {
+                $onlineBooking."NavigationTitle" = $onlineBooking.Name
+            }
+            if ($onlineBooking."Title" -ne $null) {
+                $onlineBooking."Title" = $onlineBooking.Name
+            }
+            if ($onlineBooking."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $onlineBooking."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            
+            # change Patient Resources template
+            $patientResources = Get-Item -Path "$sitePath/Home/Patient Resources" -Language $Site.Language
+            $patientResources.ChangeTemplate($item.Template)
+            $patientResources = Get-Item -Path "$sitePath/Home/Patient Resources" -Language $Site.Language
+        
+            # add PatientResources layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $patientResources -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $patientResources -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($patientResources."NavigationTitle" -ne $null) {
+                $patientResources."NavigationTitle" = $patientResources.Name
+            }
+            if ($patientResources."Title" -ne $null) {
+                $patientResources."Title" = $patientResources.Name
+            }
+            if ($patientResources."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $patientResources."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Education Articles and Videos template
+            $educationArticles = Get-Item -Path "$sitePath/Home/Patient Resources/Education Articles and Videos" -Language $Site.Language
+            $educationArticles.ChangeTemplate($item.Template)
+            $educationArticles = Get-Item -Path "$sitePath/Home/Patient Resources/Education Articles and Videos" -Language $Site.Language
+        
+            # add Education Articles and Videos layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $educationArticles -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $educationArticles -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($educationArticles."NavigationTitle" -ne $null) {
+                $educationArticles."NavigationTitle" = $educationArticles.Name
+            }
+            if ($educationArticles."Title" -ne $null) {
+                $educationArticles."Title" = $educationArticles.Name
+            }
+            if ($educationArticles."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $educationArticles."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change FAQs template
+            $faqs = Get-Item -Path "$sitePath/Home/Patient Resources/FAQs" -Language $Site.Language
+            $faqs.ChangeTemplate($item.Template)
+            $faqs = Get-Item -Path "$sitePath/Home/Patient Resources/FAQs" -Language $Site.Language
+        
+            # add FAQs layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $faqs -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $faqs -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($faqs."NavigationTitle" -ne $null) {
+                $faqs."NavigationTitle" = $faqs.Name
+            }
+            if ($faqs."Title" -ne $null) {
+                $faqs."Title" = $faqs.Name
+            }
+            if ($faqs."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $faqs."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Nutrition Tips template
+            $nutritionTips = Get-Item -Path "$sitePath/Home/Patient Resources/Nutrition Tips" -Language $Site.Language
+            $nutritionTips.ChangeTemplate($item.Template)
+            $nutritionTips = Get-Item -Path "$sitePath/Home/Patient Resources/Nutrition Tips" -Language $Site.Language
+        
+            # add Nutrition Tips layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $nutritionTips -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $nutritionTips -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($nutritionTips."NavigationTitle" -ne $null) {
+                $nutritionTips."NavigationTitle" = $nutritionTips.Name
+            }
+            if ($nutritionTips."Title" -ne $null) {
+                $nutritionTips."Title" = $nutritionTips.Name
+            }
+            if ($nutritionTips."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $nutritionTips."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+    
+            # change Services template
+            $services = Get-Item -Path "$sitePath/Home/Services" -Language $Site.Language
+            $services.ChangeTemplate($item.Template)
+            $services = Get-Item -Path "$sitePath/Home/Services" -Language $Site.Language
+        
+            # add Services layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $services -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $services -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($services."NavigationTitle" -ne $null) {
+                $services."NavigationTitle" = $services.Name
+            }
+            if ($services."Title" -ne $null) {
+                $services."Title" = $services.Name
+            }
+            if ($services."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $services."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Consultations template
+            $consultations = Get-Item -Path "$sitePath/Home/Services/Consultations" -Language $Site.Language
+            $consultations.ChangeTemplate($item.Template)
+            $consultations = Get-Item -Path "$sitePath/Home/Services/Consultations" -Language $Site.Language
+        
+            # add Consultations layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $consultations -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $consultations -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($consultations."NavigationTitle" -ne $null) {
+                $consultations."NavigationTitle" = $consultations.Name
+            }
+            if ($consultations."Title" -ne $null) {
+                $consultations."Title" = $consultations.Name
+            }
+            if ($consultations."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $consultations."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Genetic Testing template
+            $geneticTesting = Get-Item -Path "$sitePath/Home/Services/Genetic Testing" -Language $Site.Language
+            $geneticTesting.ChangeTemplate($item.Template)
+            $geneticTesting = Get-Item -Path "$sitePath/Home/Services/Genetic Testing" -Language $Site.Language
+        
+            # add Genetic Testing layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $geneticTesting -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $geneticTesting -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($geneticTesting."NavigationTitle" -ne $null) {
+                $geneticTesting."NavigationTitle" = $geneticTesting.Name
+            }
+            if ($geneticTesting."Title" -ne $null) {
+                $geneticTesting."Title" = $geneticTesting.Name
+            }
+            if ($geneticTesting."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $geneticTesting."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Medical Assessments template
+            $medicalAssessments = Get-Item -Path "$sitePath/Home/Services/Medical Assessments" -Language $Site.Language
+            $medicalAssessments.ChangeTemplate($item.Template)
+            $medicalAssessments = Get-Item -Path "$sitePath/Home/Services/Medical Assessments" -Language $Site.Language
+        
+            # add Medical Assessments layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $medicalAssessments -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $medicalAssessments -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($medicalAssessments."NavigationTitle" -ne $null) {
+                $medicalAssessments."NavigationTitle" = $medicalAssessments.Name
+            }
+            if ($medicalAssessments."Title" -ne $null) {
+                $medicalAssessments."Title" = $medicalAssessments.Name
+            }
+            if ($medicalAssessments."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $medicalAssessments."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Personalized Nutrition Plans template
+            $personalizedNutritionPlans = Get-Item -Path "$sitePath/Home/Services/Personalized Nutrition Plans" -Language $Site.Language
+            $personalizedNutritionPlans.ChangeTemplate($item.Template)
+            $personalizedNutritionPlans = Get-Item -Path "$sitePath/Home/Services/Personalized Nutrition Plans" -Language $Site.Language
+        
+            # add Personalized Nutrition Plans layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $personalizedNutritionPlans -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $personalizedNutritionPlans -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($personalizedNutritionPlans."NavigationTitle" -ne $null) {
+                $personalizedNutritionPlans."NavigationTitle" = $personalizedNutritionPlans.Name
+            }
+            if ($personalizedNutritionPlans."Title" -ne $null) {
+                $personalizedNutritionPlans."Title" = $personalizedNutritionPlans.Name
+            }
+            if ($personalizedNutritionPlans."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $personalizedNutritionPlans."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Product Recommendations template
+            $productRecommendations = Get-Item -Path "$sitePath/Home/Services/Product Recommendations" -Language $Site.Language
+            $productRecommendations.ChangeTemplate($item.Template)
+            $productRecommendations = Get-Item -Path "$sitePath/Home/Services/Product Recommendations" -Language $Site.Language
+        
+            # add Product Recommendations layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $productRecommendations -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $productRecommendations -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($productRecommendations."NavigationTitle" -ne $null) {
+                $productRecommendations."NavigationTitle" = $productRecommendations.Name
+            }
+            if ($productRecommendations."Title" -ne $null) {
+                $productRecommendations."Title" = $productRecommendations.Name
+            }
+            if ($productRecommendations."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $productRecommendations."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+    
+            # change Testimonials template
+            $testimonials = Get-Item -Path "$sitePath/Home/Testimonials" -Language $Site.Language
+            $testimonials.ChangeTemplate($item.Template)
+            $testimonials = Get-Item -Path "$sitePath/Home/Testimonials" -Language $Site.Language
+        
+            # add Testimonials layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $testimonials -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $testimonials -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($testimonials."NavigationTitle" -ne $null) {
+                $testimonials."NavigationTitle" = $testimonials.Name
+            }
+            if ($testimonials."Title" -ne $null) {
+                $testimonials."Title" = $testimonials.Name
+            }
+            if ($testimonials."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $testimonials."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Patient Success Stories template
+            $patientSuccessStories = Get-Item -Path "$sitePath/Home/Testimonials/Patient Success Stories" -Language $Site.Language
+            $patientSuccessStories.ChangeTemplate($item.Template)
+            $patientSuccessStories = Get-Item -Path "$sitePath/Home/Testimonials/Patient Success Stories" -Language $Site.Language
+        
+            # add Patient Success Stories layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $patientSuccessStories -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $patientSuccessStories -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($patientSuccessStories."NavigationTitle" -ne $null) {
+                $patientSuccessStories."NavigationTitle" = $patientSuccessStories.Name
+            }
+            if ($patientSuccessStories."Title" -ne $null) {
+                $patientSuccessStories."Title" = $patientSuccessStories.Name
+            }
+            if ($patientSuccessStories."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $patientSuccessStories."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # change Reviews and Ratings template
+            $reviewsAndRatings = Get-Item -Path "$sitePath/Home/Testimonials/Reviews and Ratings" -Language $Site.Language
+            $reviewsAndRatings.ChangeTemplate($item.Template)
+            $reviewsAndRatings = Get-Item -Path "$sitePath/Home/Testimonials/Reviews and Ratings" -Language $Site.Language
+        
+            # add Reviews and Ratings layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $reviewsAndRatings -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $reviewsAndRatings -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($reviewsAndRatings."NavigationTitle" -ne $null) {
+                $reviewsAndRatings."NavigationTitle" = $reviewsAndRatings.Name
+            }
+            if ($reviewsAndRatings."Title" -ne $null) {
+                $reviewsAndRatings."Title" = $reviewsAndRatings.Name
+            }
+            if ($reviewsAndRatings."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+                $reviewsAndRatings."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            
+            # change Error template
+            $errorHandlingItem = Get-Item -Path "$sitePath/Home/Error" -Language $Site.Language
+            $errorHandlingItem.ChangeTemplate($item.Template)
+            $errorHandlingItem = Get-Item -Path "$sitePath/Home/Error" -Language $Site.Language
+    
+            # add Error layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $errorHandlingItem -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $errorHandlingItem -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($errorHandlingItem."NavigationTitle" -ne $null) {
+                $errorHandlingItem."NavigationTitle" = $errorHandlingItem.Name
+            }
+            if ($errorHandlingItem."Title" -ne $null) {
+                $errorHandlingItem."Title" = $errorHandlingItem.Name
+            }
+            if ($errorHandlingItem."NavigationFilter" -ne $null) {
+                $errorHandlingFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $errorHandlingRawFieldValue = $errorHandlingFilters.ID -join "|"
+                $errorHandlingItem."NavigationFilter" = $errorHandlingRawFieldValue
+            }
+            
+            # change 404 template
+            $pageNotFoundItem = Get-Item -Path "$sitePath/Home/Error/404 - Page Not Found" -Language $Site.Language
+            $pageNotFoundItem.ChangeTemplate($item.Template)
+            $pageNotFoundItem = Get-Item -Path "$sitePath/Home/Error/404 - Page Not Found" -Language $Site.Language
+        
+            # add 404 layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $pageNotFoundItem -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $pageNotFoundItem -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($pageNotFoundItem."NavigationTitle" -ne $null) {
+                $pageNotFoundItem."NavigationTitle" = $pageNotFoundItem.Name
+            }
+            if ($pageNotFoundItem."Title" -ne $null) {
+                $pageNotFoundItem."Title" = $pageNotFoundItem.Name
+            }
+            if ($pageNotFoundItem."NavigationFilter" -ne $null) {
+                $pageNotFoundFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageNotFoundRawFieldValue = $pageNotFoundFilters.ID -join "|"
+                $pageNotFoundItem."NavigationFilter" = $pageNotFoundRawFieldValue
+            }
+    
+            # update settings with 404 link
+            $siteSettings = Get-Item -Path "$sitePath/Settings"
+            $siteSettings."Error404Page" = $pageNotFoundItem.FullPath
+    
+    
+            # change 500 template
+            $pageInternalServerErrorItem = Get-Item -Path "$sitePath/Home/Error/500 - Internal Server Error" -Language $Site.Language
+            $pageInternalServerErrorItem.ChangeTemplate($item.Template)
+            $pageInternalServerErrorItem = Get-Item -Path "$sitePath/Home/Error/500 - Internal Server Error" -Language $Site.Language
+        
+            # add 500 layout
+            $styles = Get-LocalStyle $Site ("{AEE4AB64-B71E-4A84-8281-2285204FABA4}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $pageInternalServerErrorItem -PlaceHolder "headless-main" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            Add-Rendering -Item $pageInternalServerErrorItem -PlaceHolder "/headless-main/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{D617B012-6CDA-4214-A6F8-5E5C0460EF0F}|{175CB6DA-CF89-4D56-888C-EB79F514D12F}|{7DF615F7-0A53-42E1-A164-2B36D6126314}" } -DataSource "local:/Data/Text 1"
+            if ($pageInternalServerErrorItem."NavigationTitle" -ne $null) {
+                $pageInternalServerErrorItem."NavigationTitle" = $pageInternalServerErrorItem.Name
+            }
+            if ($pageInternalServerErrorItem."Title" -ne $null) {
+                $pageInternalServerErrorItem."Title" = $pageInternalServerErrorItem.Name
+            }
+            if ($pageInternalServerErrorItem."NavigationFilter" -ne $null) {
+                $pageInternalServerErrorFilters = Get-ChildItem -Path "/sitecore/system/Settings/Foundation/Experience Accelerator/Navigation/Navigation Filters"
+                $pageInternalServerErrorRawFieldValue = $pageInternalServerErrorFilters.ID -join "|"
+                $pageInternalServerErrorItem."NavigationFilter" = $pageInternalServerErrorRawFieldValue
+            }
+    
+            # update settings with 500 link
+            $siteSettings = Get-Item -Path "$sitePath/Settings"
+            $siteSettings."Error500Page" = $pageInternalServerErrorItem.FullPath
+    
+        
+            # add Footer partial layout
+            $partialFooter = Get-Item -Path "$sitePath/Presentation/Partial Designs/Footer"
+            $styles = Get-LocalStyle $Site ("{3AE24F6D-3BAA-45FE-9991-E102821A3442}", "{E779FBBF-729B-42CC-B67A-4CD3CE49B47E}", "{5658AF00-D5D1-48AD-83F8-85EE3F1BF3FB}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $partialFooter -PlaceHolder "headless-footer" -Instance $renderingContainerDefinition -Parameter @{ "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "DynamicPlaceholderId" = "1" }
+            $styles = Get-LocalStyle $Site ("{003D5524-98D3-4323-AC12-15E44BA3F7AC}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $partialFooter -PlaceHolder "/headless-footer/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "Styles" = $styles; "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{31A49E90-E4B4-4F04-A3C7-E15B6835990F}" } -DataSource "local:/Data/Address"
+            Add-Rendering -Item $partialFooter -PlaceHolder "/headless-footer/container-1" -Instance $renderingRichTextDefinition -Parameter @{ "Styles" = $styles; "FieldNames" = $rtVariant.ID; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{31A49E90-E4B4-4F04-A3C7-E15B6835990F}" } -DataSource "local:/Data/Contact info"
+        
+            # add Header partial layout
+            $partialHeader = Get-Item -Path "$sitePath/Presentation/Partial Designs/Header"
+            $styles = Get-LocalStyle $Site ("{92F6569B-CA2D-4C2D-B4A4-D34EACB09A9E}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $partialHeader -PlaceHolder "headless-header" -Instance $renderingRichTextDefinition -Parameter @{ "FieldNames" = $rtVariant.ID; "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}|{81225C08-5783-4BED-A86A-AB2B87198885}" } -DataSource "local:/Data/Title"
+            $styles = Get-LocalStyle $Site ("{E46EBFCD-2FDF-4AC9-89CB-34C39045487F}", "{F93F497C-F762-4503-9B71-2208425370EF}")
+            $styles = [string]::Join('|', $styles)
+            Add-Rendering -Item $partialHeader -PlaceHolder "headless-header" -Instance $renderingNavigationDefinition -Parameter @{ "FieldNames" = $navigationVariant.ID; "Styles" = $styles; "GridParameters" = "{7465D855-992E-4DC2-9855-A03250DFA74B}"; "NavigationRoot" = "$($item.ID)"; "AddRoot" = "1"; "LevelFrom" = "{1BB88840-5FB3-4353-AD8D-81136F6FF75A}"; "LevelTo" = "{1BB88840-5FB3-4353-AD8D-81136F6FF75A}"; "Filter" = "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}" }
+            
+    
+            # set template-to-design mapping
+            $partialDesignIDs = (Get-ChildItem -path "$sitePath/Presentation/Partial Designs").ID
+            $pageDesign = Get-Item -path "$sitePath/Presentation/Page Designs/Default" -Language $Site.Language
+            $pageDesign.PartialDesigns = [System.String]::Join('|', $partialDesignIDs)
+        
+            $pageDesigns = Get-Item -path "$sitePath/Presentation/Page Designs" -Language $Site.Language
+        
+            $map = [Sitecore.Text.UrlString]::new()
+            $map["$($item.TemplateID)"] = "$($pageDesign.ID)"
+            $pageDesigns.TemplatesMapping = [System.Web.HttpUtility]::UrlEncode($map.toString())
+                
+            # add media library root.
+            $virtualMedia = Get-Item -path "$sitePath/Media" -Language $Site.Language
+            $ids = $virtualMedia.AdditionalChildren.Split('|') | ? { [guid]::TryParse($_, [ref][guid]::Empty) }
+            $ids += "{B4D0BE7D-1DCD-4263-9EDE-9E6693DA8BCB}"
+            $virtualMedia.AdditionalChildren = ($ids | Select-Object -Unique) -join "|"
+    
+            # migrate field values for non-english versions
+            $data = Get-Item -Path "$sitePath/Data" -Language '*'
+            $siteLanguage = $data.Language | ? { $_.Name -ne "en" } | Select-Object -First 1
+            if ($siteLanguage.Name -ne $null) {
+                $branches = gci -path '/sitecore/system/Settings/Feature/JSS Experience Accelerator/Nutrition Clinic Franchise Template/Nutrition Clinic Franchise Site Template Setup' | ? { $_.TemplateId -eq '{3AEA335C-D06D-45B1-841A-CBC8D2D1CE40}' } | % { $_.Fields['Template'].Value.ToString() }
+                Get-ChildItem -Path $sitePath -Recurse | `
+                    ? { $branches.Contains($_.BranchId.ToString()) } | `
+                    ? { $_.TemplateName -ne 'Page Data' } | `
+                    % {
+                    Write-Verbose "Migrating field values for $($_.Paths.Path)"
+                    $_ = $_.Versions.AddVersion()
+                    Add-ItemLanguage -Item $_ -TargetLanguage $siteLanguage.Name -Language 'en' -IfExist OverwriteLatest | Out-Null
+                    $_.Versions.RemoveAll($false)
+                }
+                    
+                Get-ChildItem -Path "$sitePath/Presentation/Styles" -Recurse | % {
+                    Write-Verbose "Migrating field values for $($_.Paths.Path)"
+                    $_ = $_.Versions.AddVersion()
+                    Add-ItemLanguage -Item $_ -TargetLanguage $siteLanguage.Name -Language 'en' -IfExist OverwriteLatest | Out-Null
+                    $_.Versions.RemoveAll($false)
+                }                
+            }
+        }
+        
+        end {
+            Write-Verbose "Cmdlet Invoke-ModuleScriptBody - End"
+        }
+    }
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Home Renderings hinzufügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T115515Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f102960e-f845-4d47-becd-864f005117ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240922T012018Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ホームレンダリングを追加
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 添加主页渲染
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z

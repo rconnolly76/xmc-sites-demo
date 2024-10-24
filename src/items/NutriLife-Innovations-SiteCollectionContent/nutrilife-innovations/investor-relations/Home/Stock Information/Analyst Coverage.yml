@@ -1,0 +1,34 @@
+﻿---
+ID: "f050111a-a57f-4718-8ec2-3bb65d404def"
+Parent: "f8e430cc-e864-4ba4-b0f8-d1d9667c597a"
+Template: "71496766-f5a0-437a-8375-4d44d5f39a0e"
+Path: "/sitecore/content/nutrilife-innovations/investor-relations/Home/Stock Information/Analyst Coverage"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4CC2D8E1-84B6-41AE-8F86-CCAF2DD4285B}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240816T194908Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Analyst Coverage
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67f533bd-11be-46fe-b300-3e666cf69b62"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240816T194908Z
+    - ID: "e0483b1c-9d99-4824-9b74-b3373289b9bd"
+      Hint: Title
+      Value: Analyst Coverage

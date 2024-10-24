@@ -1,0 +1,68 @@
+﻿---
+ID: "55f2ca11-725c-4a65-a0d6-23490f30825e"
+Parent: "62ff266f-1e50-441f-b567-f69ce9716e51"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/active-fuel/electrolyte-hydration-mix/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{41395280-54D7-4B49-A3AE-16F2083929AE}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bA14FE814-7EBD-4095-AD94-248462CC4D24%7d%7c%7bD3C5F2F0-CF9A-4E6A-B798-B1DF5CF685D4%7d%7c%7bCC580C29-B543-4E4E-AD7D-F34D388B9D11%7d%7c%7b552A0E63-33A9-4E1E-A386-8F0F69970935%7d%7c%7bE7752729-9A10-432B-B271-0BC9001919A4%7d%7c%7b36D79F10-14DF-4D7C-BCA3-9732E0A46F09%7d%7c%7b6AACC72D-6D0A-4A3D-BAD1-C5E836393752%7d%7c%7b6DC7025B-8E7A-4B73-B0D0-4B6328D9FB31%7d%7c%7b6BE23621-E000-4110-B776-2F8CE7F2770A%7d%7c%7b264FF548-DCD8-4368-A687-B695D6695FDE%7d%7c%7b9B4E951B-4D3C-4759-8871-83CB40A13A70%7d%7c%7b29842758-67D9-412B-8AB2-7B18DDBC603F%7d%7c%7b735289D5-DFDA-475A-9519-5438FC33D09F%7d%7c%7bBCF1E045-7DCF-4C2A-95FD-42DBB2129D80%7d%7c%7b0C7750E4-D27A-4D59-9452-2F323FC46637%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{C1BD79DB-8603-4E7F-A8D4-999B099D6A54}"
+          p:after="r[@uid='{41395280-54D7-4B49-A3AE-16F2083929AE}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bA954EFF5-5F5E-455F-B7BC-44D9D5B81F47%7d&amp;FieldNames=%7b470F81AE-CE4E-45C7-B876-C3A2B70B3CDC%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{DB177F22-CADD-4C95-A3FA-28AECBBD5D29}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bA954EFF5-5F5E-455F-B7BC-44D9D5B81F47%7d&amp;FieldNames=%7b470F81AE-CE4E-45C7-B876-C3A2B70B3CDC%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T200039Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99ae502c-c2b2-4610-ba17-166fd86d8a57"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T200107Z

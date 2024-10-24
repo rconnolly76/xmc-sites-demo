@@ -1,0 +1,76 @@
+﻿---
+ID: "5d74a5a7-c451-4726-b639-34d46aa4ca7f"
+Parent: "b177cd3c-8bf9-411c-a7d0-0e309b45ebf1"
+Template: "71496766-f5a0-437a-8375-4d44d5f39a0e"
+Path: "/sitecore/content/nutrilife-innovations/corporate-shared-web-assets-content/Home/500 - Internal Server Error"
+BranchID: "d59d155e-2a2f-4fee-92ab-76b8105139ec"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{23E6BB2D-270A-45F5-B075-064D97F5BC96}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{BCB6C8D0-54FD-4EFC-A116-B5FC1A8D0827}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bCD1E565C-13A2-4081-9A9B-C2A992EED31D%7d%7c%7b3F926DB9-F55E-429F-914A-67860D7824C6%7d%7c%7b3C1EFBED-E4FC-4386-B9FE-0E5D17A5AC34%7d%7c%7bA11625EE-12E2-43F5-9AA6-8DDC4D716676%7d%7c%7b9CEF32EF-2F72-4E98-B72C-896EEDAE6F36%7d%7c%7bCF7A8097-6902-49FB-81C5-DD7F36A2B054%7d%7c%7bCDBB628D-0B6F-448D-84F2-36A109D32C63%7d%7c%7b5A6D095F-FA90-47E0-84A2-076B58E25FD4%7d%7c%7bBC726C50-F34A-47F5-AB5E-8B7886CF9A34%7d%7c%7bF1C5035E-46C5-4A94-B617-D8EF22C49B55%7d%7c%7bBC6F163A-D38A-49EA-8E4A-29F4A463CE18%7d%7c%7b8522B0C4-D7AD-4EAD-ACB7-AC3DA642B4D0%7d%7c%7b7FBE80C0-4797-41FC-A020-D30B6E1C5637%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{73F9B13F-DA42-43A1-812E-A902E40F3ABB}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b2A6EF463-E860-4C41-90A6-94E51F54A9B9%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F29ABE9B-668C-43C3-BA45-C53FD1D82992}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240815T200409Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "500 - Internal Server Error"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba468776-19e4-4120-82cc-9eb15b0748cb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240815T200421Z
+    - ID: "e0483b1c-9d99-4824-9b74-b3373289b9bd"
+      Hint: Title
+      Value: "500 - Internal Server Error"

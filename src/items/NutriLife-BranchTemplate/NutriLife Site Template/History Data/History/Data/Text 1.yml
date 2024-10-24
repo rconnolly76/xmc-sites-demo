@@ -1,0 +1,170 @@
+﻿---
+ID: "1cca1ee0-e05b-46c1-8524-5539f0b951e2"
+Parent: "f917a07d-c703-43c2-a1c7-69ca7ceaa9c3"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/templates/Branches/Feature/JSS Experience Accelerator/NutriLife Site Template/History Data/History/Data/Text 1
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Tekst 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Om</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Text 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Über</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T100628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1 class="header">Our History</h1>
+        <div class="content">
+        <p>Founded in <span class="highlight">2005</span>, NutriLife Innovations began with a simple mission: to improve global health through innovative nutritional solutions. Our journey started with a small team of passionate scientists and health enthusiasts who believed in the power of nutrition to transform lives.</p>
+        <p>In <span class="highlight">2008</span>, we launched our first line of advanced nutritional supplements, which quickly gained recognition for their efficacy and quality. This success fueled our growth and allowed us to expand our research and development efforts.</p>
+        <p>By <span class="highlight">2012</span>, NutriLife Innovations had established itself as a leader in the health and wellness industry. We introduced personalized health plans, leveraging the latest genetic research to offer customized solutions tailored to individual needs.</p>
+        <p>Our commitment to sustainability became a cornerstone of our operations in <span class="highlight">2015</span>. We adopted eco-friendly practices and materials, ensuring that our products not only benefit our customers but also the planet.</p>
+        <p>In <span class="highlight">2020</span>, we opened our state-of-the-art research facility, dedicated to exploring new frontiers in health and wellness. This facility has enabled us to make significant advancements in nutritional science and develop innovative products that set new industry standards.</p>
+        <p>Today, NutriLife Innovations continues to thrive, driven by our unwavering dedication to improving health and well-being. Our journey is a testament to the power of innovation, collaboration, and a relentless pursuit of excellence.</p>
+        </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8299fff3-79b8-4163-ad7a-7322e550578d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240815T015404Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: テキスト1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>概要</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Text 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240813T132007Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>关于</h1>
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec velit ut tellus mollis tempor ac nec tellus. Praesent mollis finibus urna. Integer tempus ac metus congue blandit. Mauris quam libero, porttitor quis velit a, lobortis cursus libero. Morbi sed nunc sed lectus mollis pretium. Nulla id dignissim arcu. Nam nec est ultricies, fringilla elit sit amet, pretium nunc. Mauris interdum mauris eu ligula semper, sit amet pulvinar felis facilisis. Pellentesque hendrerit dui et mauris fringilla, eget porta augue convallis. Fusce consequat eu eros et sagittis. Phasellus sit amet odio vel libero condimentum cursus.</span></p>
+        <br />
+        <p>
+        <span style="line-height: 32px; font-weight: 500; font-size: 16px;">Pellentesque malesuada, quam varius scelerisque varius, sem arcu ultricies neque, in aliquam nulla sem vel arcu. Duis blandit, erat sed fringilla semper, arcu lectus interdum enim, et rutrum magna diam id nunc. Nunc ac orci at diam gravida mollis sed ac leo. Aliquam erat volutpat. Aliquam massa ante, posuere a nisl ut, consectetur malesuada felis. Vivamus congue sodales tortor. Sed ut lacus sit amet eros consectetur laoreet rutrum eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sed gravida enim. Etiam at massa sollicitudin, vulputate nisi quis, porttitor magna. Cras nec commodo tortor. Sed id orci erat.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8fc7981-b2f4-4379-8d1c-4b4374889d7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T132007Z

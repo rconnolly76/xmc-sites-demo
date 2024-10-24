@@ -1,0 +1,71 @@
+﻿---
+ID: "7c01f8e5-b0ac-4030-8771-18fb11f131c8"
+Parent: "9c35c2bb-045d-41be-a7f4-a44498288f5e"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/low-calorie-snack-bars/Home/How it Works"
+BranchID: "6b1ea819-862e-47a3-b73f-10200b4598fc"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7CE7D49C-8028-4D5C-A8CD-AABC285C463E}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D0A1484C-CE94-41C8-84D2-137EC637D74E}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b281180F6-050C-40CE-A85D-14B1536447D7%7d%7c%7bDFF4F93D-C2E5-40C1-9ED0-35AD1E17BD1B%7d%7c%7bB93859E0-3AFE-4671-9A70-29B777C8CC9B%7d%7c%7b0091CFBF-D2E6-4237-A2F4-9DFD544883B6%7d%7c%7b41D6B509-58D4-44BB-A18C-9E93D5B2A521%7d%7c%7b048E5AF4-EC8F-43CF-9872-071B2C67B1C8%7d%7c%7bF040A46A-3281-419C-AAC4-5BE19048D1B8%7d%7c%7b5D7B529D-99B1-4BFF-8C43-18FF13C1060A%7d%7c%7b8786FADE-84E5-49D9-A809-4A77451A8538%7d%7c%7b6AD7039B-4B8B-4E27-927D-A5C02D3DDD47%7d%7c%7b20951560-F1BD-4366-9704-9F83B0B8B9BB%7d%7c%7b9C8E2B84-66F5-46A8-9973-CE1B5E0CD1DF%7d%7c%7bE1B12AD2-4611-4290-9075-C77C5CA8AF66%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{EF45678D-FAF2-4034-9882-6A84869ACB9A}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bB1DA3463-4DAD-4F87-8330-BFF3CDDE2080%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E57F4581-46A0-4273-8B31-89791058E0A1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T181149Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: How it Works
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a103d6b-ff98-45a9-8b03-219d376aff97"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: How it Works
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T181233Z

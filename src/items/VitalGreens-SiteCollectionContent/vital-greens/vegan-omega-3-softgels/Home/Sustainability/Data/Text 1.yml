@@ -1,0 +1,50 @@
+﻿---
+ID: "8d64c49e-7293-4521-81f1-1b3f70aaf9ad"
+Parent: "31e6421b-37d0-4f8c-8fee-daf39de5caab"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/vital-greens/vegan-omega-3-softgels/Home/Sustainability/Data/Text 1"
+BranchID: "db716a18-aad0-45f8-84ae-c7aa61a42a0d"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{24D7B4DB-06D2-49E3-A251-7197A755BF30}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T182714Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Sustainability</h1>
+        <p>
+        </p>
+        <p style="margin-left: 0px;">
+        <ul style="color: #111111; background-color: #f7f7f7; margin: 12px 0px 0px;">
+            <li>Information on sustainable practices</li>
+            <li>Eco-friendly packaging details</li>
+            <li>Community initiatives</li>
+        </ul>
+        </p>
+        <p>&nbsp;</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26d8ca37-65a3-49ac-883b-89608d38325a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T182714Z

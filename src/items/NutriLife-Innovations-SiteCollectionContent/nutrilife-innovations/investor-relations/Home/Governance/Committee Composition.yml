@@ -1,0 +1,38 @@
+﻿---
+ID: "dcdafee8-577a-4525-bf1c-70010bf777b2"
+Parent: "52a8d866-09b7-44b7-8bbc-f706b5238a90"
+Template: "71496766-f5a0-437a-8375-4d44d5f39a0e"
+Path: "/sitecore/content/nutrilife-innovations/investor-relations/Home/Governance/Committee Composition"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0947E504-6891-45CA-88FC-9C1C15520B8A}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Committee Composition
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240816T194609Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Comittee Composition
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35014b40-fff8-45d4-aedd-7678e0ea74e0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240816T194627Z
+    - ID: "e0483b1c-9d99-4824-9b74-b3373289b9bd"
+      Hint: Title
+      Value: Comittee Composition

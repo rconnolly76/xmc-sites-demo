@@ -1,0 +1,71 @@
+﻿---
+ID: "8d1e8f08-e244-4367-a6c5-6b4f364e7632"
+Parent: "433ae969-ed0f-4878-ba77-42889427963d"
+Template: "0aff055f-40f1-43a8-959d-44a232475bd9"
+Path: "/sitecore/content/pure-essence/herbal-teas/Home/Product Support/Shipping Information"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{39D18AF3-0D95-4B47-A466-A9E8887F5291}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8FC04091-B924-46A3-BAAF-8F018A7F1A4F}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b2DD4EBB3-52C7-42D0-B106-FF451AE5D003%7d%7c%7b6A8BB25A-3139-4634-A8F0-997505BC5077%7d%7c%7b15E40B6E-F884-4780-A443-842B1729E9CE%7d%7c%7b6F57553C-17AB-40BE-87F9-F1055A0FA5C1%7d%7c%7b35C305B7-5000-45AC-9C8C-E52E431B30E1%7d%7c%7b8358C6AF-D27F-475C-911A-6CE87373A92B%7d%7c%7b67B248F2-3981-4808-8305-A4D4D6D3D94E%7d%7c%7bDA637217-9FBE-4DE2-9143-5039F4C47DF6%7d%7c%7bA031D1FF-F81C-4DB3-9F60-A8F62F3F97C9%7d%7c%7bF368DA35-6DB9-4A47-8BA3-C2E107A940E3%7d%7c%7bC6170FDF-3AED-4DA7-B529-7EB689194B8E%7d%7c%7b9C92477D-6299-4D8E-8C9A-73CC8171A5C4%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{BA9C910B-31AB-43C1-8AB7-D1E69BF835DC}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b60A7E4C9-B85F-4F2B-8537-E3C7D23D3C0F%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B04F4F9C-497D-4185-AB3A-C81DCCE3DA7B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T185913Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Shipping Information
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52bf4d69-5842-4c60-bb4b-8139a9ce7114"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d46f2627-ed33-4149-9ca0-6780ff9f4aee"
+      Hint: Title
+      Value: Shipping Information
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T185953Z

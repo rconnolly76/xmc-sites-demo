@@ -1,0 +1,96 @@
+﻿---
+ID: "4cb18691-25c0-4393-b5c1-21d5dda05e20"
+Parent: "6ef8cf6c-a8a8-41bf-970e-ef2e7e58a35f"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/multivitamin-gummies/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F2569883-F8A0-4634-9185-A9C4B6CAE6AD}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C34C7781-81E2-4E3C-87DD-7F8C58AAABF4}"
+          p:before="*"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bD6C7B44E-B598-4EA7-9B08-8335EB3A357B%7d&amp;FieldNames=%7bCFE0B441-66E4-4979-A6C0-8D7EA4DFCE67%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b3DC91543-36F8-452A-BACD-F98B0C21BCF9%7d%7c%7b6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7bA0F0B1B4-1B69-4BA7-B80F-0F1245E10CAF%7d%7c%7bB7B9EA19-356B-4FC1-80E8-3956CC8A5F2B%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b94BCE55D-68FC-4020-A364-176EF1AAAFFB%7d%7c%7bF4BC7C4C-175F-4EA4-A6D9-EFCD92507276%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d%7c%7b1FEC5EDD-5489-43F1-8C19-A092206E130D%7d%7c%7bB706790E-8CB2-4A93-B341-6E7171734B61%7d"
+          s:ph="headless-main" />
+        <r
+          uid="{8407DF7E-49E2-4E8A-872A-7A5FFA9A27B8}"
+          p:after="r[@uid='{C34C7781-81E2-4E3C-87DD-7F8C58AAABF4}']"
+          s:ds="local:/Data/Image 1"
+          s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
+          s:par="?DynamicPlaceholderId=2&amp;FieldNames=%7b391E9C03-25C0-4DD3-A256-84ADC28FD98D%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d"
+          s:ph="headless-main" />
+        <r
+          uid="{923F8234-4547-474E-824A-7A958C6EF272}"
+          p:after="r[@uid='{8407DF7E-49E2-4E8A-872A-7A5FFA9A27B8}']"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b17B0BD20-E118-4A4D-B04B-9BAC48A1D4D5%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{4EB00086-FEAF-4DA4-8823-9E4E29C9B0E9}"
+          p:after="r[@uid='{923F8234-4547-474E-824A-7A958C6EF272}']"
+          s:ds="local:/Data/Text 2"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bC6AEC7AB-3472-4E02-B836-77EE4A1A6217%7d&amp;FieldNames=%7bCFE0B441-66E4-4979-A6C0-8D7EA4DFCE67%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b89251DD2-C10F-4593-9FC1-A6FF62A0C5F2%7d%7c%7bA77C4C45-A221-4ABF-81D0-94F476E5B8E2%7d%7c%7b644DA9F1-DE7A-4CEB-8E43-D5D0A3B3DA4D%7d"
+          s:ph="/headless-main/container-1" />
+        <r
+          uid="{3714268B-8A73-4047-95CC-A948AF15E81B}"
+          p:after="r[@uid='{4EB00086-FEAF-4DA4-8823-9E4E29C9B0E9}']"
+          s:ds="local:/Data/PromoLeft"
+          s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+          s:par="?Styles=%7b5880CD17-71D4-443A-8BD7-8FAB5A3E8EFF%7d&amp;FieldNames=%7b2905D5F6-2A2F-4211-9B21-E5ADC1632EB0%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d%7c%7b41E4B2ED-E813-46F9-8455-C26C88E78D47%7d%7c%7b1D84575C-B71C-40B2-BE7E-65503BCD666E%7d"
+          s:ph="/headless-main/container-1" />
+        <r
+          uid="{671FC216-1502-4FD1-82D1-FCCA25ABE07A}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/PromoRight"
+          s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+          s:par="?Styles=%7b5880CD17-71D4-443A-8BD7-8FAB5A3E8EFF%7d&amp;FieldNames=%7b2905D5F6-2A2F-4211-9B21-E5ADC1632EB0%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d%7c%7b41E4B2ED-E813-46F9-8455-C26C88E78D47%7d%7c%7b1D84575C-B71C-40B2-BE7E-65503BCD666E%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T220447Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Home
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77a62a8a-a7c3-4420-97fc-fdf6203395dd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Home
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T220604Z

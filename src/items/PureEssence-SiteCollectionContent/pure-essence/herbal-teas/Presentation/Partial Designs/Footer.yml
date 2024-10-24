@@ -1,0 +1,68 @@
+﻿---
+ID: "95f2d3aa-62b4-41ec-8933-0a0933d61932"
+Parent: "12178442-c8bd-42c6-83fd-19514cd8e76c"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/pure-essence/herbal-teas/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{045C7251-23F0-4878-A683-B4B8F10F8BDC}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b230B8E16-44F1-43DF-B526-44131DCBCE8C%7d%7c%7b9F85A8F4-EE8F-4EE5-AAB9-46C3B1A94E3E%7d%7c%7b2DD4EBB3-52C7-42D0-B106-FF451AE5D003%7d%7c%7b6A8BB25A-3139-4634-A8F0-997505BC5077%7d%7c%7b15E40B6E-F884-4780-A443-842B1729E9CE%7d%7c%7b6F57553C-17AB-40BE-87F9-F1055A0FA5C1%7d%7c%7b35C305B7-5000-45AC-9C8C-E52E431B30E1%7d%7c%7b8358C6AF-D27F-475C-911A-6CE87373A92B%7d%7c%7b67B248F2-3981-4808-8305-A4D4D6D3D94E%7d%7c%7bDA637217-9FBE-4DE2-9143-5039F4C47DF6%7d%7c%7bA031D1FF-F81C-4DB3-9F60-A8F62F3F97C9%7d%7c%7bF368DA35-6DB9-4A47-8BA3-C2E107A940E3%7d%7c%7bC6170FDF-3AED-4DA7-B529-7EB689194B8E%7d%7c%7b9C92477D-6299-4D8E-8C9A-73CC8171A5C4%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{A0367382-989D-4F51-83A9-2612731CBB66}"
+          p:after="r[@uid='{045C7251-23F0-4878-A683-B4B8F10F8BDC}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b575DBB95-8A74-4B2B-BCE9-C32BF89FED5A%7d&amp;FieldNames=%7b60A7E4C9-B85F-4F2B-8537-E3C7D23D3C0F%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{DFEA40AC-EBB2-46ED-A4A2-96F10954BB4E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b575DBB95-8A74-4B2B-BCE9-C32BF89FED5A%7d&amp;FieldNames=%7b60A7E4C9-B85F-4F2B-8537-E3C7D23D3C0F%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T185922Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8395296e-35b5-4e1e-b59c-ea8a4cd15417"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T185942Z

@@ -1,0 +1,118 @@
+﻿---
+ID: "f52555d2-0d05-49f7-b4a0-f70b1d524aad"
+Parent: "0e57f261-774d-48fb-b4d8-98666c85385d"
+Template: "71496766-f5a0-437a-8375-4d44d5f39a0e"
+Path: "/sitecore/content/nutrilife-innovations/Corporate/Home/Brands"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{345CDDD9-BA42-4C35-8E27-CDECFA743E74}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0F622A35-CB72-4595-A3C9-D55E47C708EE}"
+              p:before="*"
+              s:ds="local:/Data/Text 3"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B7DF615F7-0A53-42E1-A164-2B36D6126314%7D%7C%7BD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7D&amp;FieldNames=%7BC3BC952C-4425-45F8-87CF-913EAECE875F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=14"
+              s:ph="headless-main" />
+            <r
+              uid="{706221F6-CB8B-41B0-964E-BE664099DB51}"
+              p:after="r[@uid='{0F622A35-CB72-4595-A3C9-D55E47C708EE}']"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="headless-main" />
+            <r
+              uid="{472A179B-A752-4C59-BFD3-0F4C12CAAEA2}"
+              p:after="r[@uid='{706221F6-CB8B-41B0-964E-BE664099DB51}']"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="/headless-main/container-9" />
+            <r
+              uid="{5B81D29B-656D-44FD-91AD-FB11E30299C7}"
+              p:after="r[@uid='{472A179B-A752-4C59-BFD3-0F4C12CAAEA2}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth3=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B89251DD2-C10F-4593-9FC1-A6FF62A0C5F2%7D&amp;SplitterSize=3&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
+              s:ph="/headless-main/container-9/container-10" />
+            <r
+              uid="{05866A18-AE8C-4611-A5A4-DD67D9B87239}"
+              p:after="r[@uid='{5B81D29B-656D-44FD-91AD-FB11E30299C7}']"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=12"
+              s:ph="/headless-main/container-9/container-10" />
+            <r
+              uid="{6DB20BF1-EC57-4756-B7DA-CCE43EA1CCF9}"
+              p:after="r[@uid='{05866A18-AE8C-4611-A5A4-DD67D9B87239}']"
+              s:ds="9b93c1b8-1077-46c0-8360-e9d3d0278064"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD365413-B404-4A86-A86A-7D571B984F5A%7D&amp;Styles=%7C%7B09D66169-5242-47D5-B16B-159DC250C5AF%7D%7C%7BCF7811F3-5C78-4A5B-943A-276BCBE768B9%7D%7C%7B7B1D999B-8029-4C14-8B70-68416D5CD7F1%7D%7C%7B0EC09419-C70E-493A-80E9-DA3D6B29EB6D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/container-9/container-10/column-1-11" />
+            <r
+              uid="{D7F2A64F-3951-4D13-8454-947A9E3C7F22}"
+              p:after="r[@uid='{6DB20BF1-EC57-4756-B7DA-CCE43EA1CCF9}']"
+              s:ds="19b000c0-81bf-40ea-9cd6-bb6a81245d21"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD365413-B404-4A86-A86A-7D571B984F5A%7D&amp;Styles=%7C%7BCF7811F3-5C78-4A5B-943A-276BCBE768B9%7D%7C%7B7B1D999B-8029-4C14-8B70-68416D5CD7F1%7D%7C%7B09D66169-5242-47D5-B16B-159DC250C5AF%7D%7C%7B0EC09419-C70E-493A-80E9-DA3D6B29EB6D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/container-9/container-10/column-2-11" />
+            <r
+              uid="{BFABA577-4170-4A49-BB9A-BA5914222BF7}"
+              p:after="r[@uid='{D7F2A64F-3951-4D13-8454-947A9E3C7F22}']"
+              s:ds="dfd45545-4968-4e5d-bf43-cade422fde24"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD365413-B404-4A86-A86A-7D571B984F5A%7D&amp;Styles=%7C%7B7B1D999B-8029-4C14-8B70-68416D5CD7F1%7D%7C%7B0EC09419-C70E-493A-80E9-DA3D6B29EB6D%7D%7C%7B09D66169-5242-47D5-B16B-159DC250C5AF%7D%7C%7BCF7811F3-5C78-4A5B-943A-276BCBE768B9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="/headless-main/container-9/container-10/column-3-11" />
+            <r
+              uid="{7B470330-3094-4F3E-8E6B-D8FCB60D59A6}"
+              p:after="r[@uid='{BFABA577-4170-4A49-BB9A-BA5914222BF7}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth2=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth3=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D%7C%7BF6FDDF61-C60E-46D1-A4A7-978EBDBE9620%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=3&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=13"
+              s:ph="/headless-main/container-9/container-10/container-12" />
+            <r
+              uid="{2618966E-FFC5-43C0-84CB-DC67B441DD17}"
+              p:after="r[@uid='{7B470330-3094-4F3E-8E6B-D8FCB60D59A6}']"
+              s:ds="e65986a3-5f6d-4a84-b39e-0b65ced1544e"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD365413-B404-4A86-A86A-7D571B984F5A%7D&amp;Styles=%7C%7BCF7811F3-5C78-4A5B-943A-276BCBE768B9%7D%7C%7B09D66169-5242-47D5-B16B-159DC250C5AF%7D%7C%7B7B1D999B-8029-4C14-8B70-68416D5CD7F1%7D%7C%7B0EC09419-C70E-493A-80E9-DA3D6B29EB6D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-main/container-9/container-10/container-12/column-1-13" />
+            <r
+              uid="{7F30F550-960D-44B0-B063-40C308EDD29B}"
+              p:after="*[1=2]"
+              s:ds="f55c1df9-61d1-48f9-b922-e7cab533ec40"
+              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFD365413-B404-4A86-A86A-7D571B984F5A%7D&amp;Styles=%7C%7BCF7811F3-5C78-4A5B-943A-276BCBE768B9%7D%7C%7B09D66169-5242-47D5-B16B-159DC250C5AF%7D%7C%7B7B1D999B-8029-4C14-8B70-68416D5CD7F1%7D%7C%7B0EC09419-C70E-493A-80E9-DA3D6B29EB6D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:ph="/headless-main/container-9/container-10/container-12/column-2-13" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240816T200230Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Brands
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c564c1c0-9152-4ee4-ae10-e4002010f75e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T213852Z
+    - ID: "e0483b1c-9d99-4824-9b74-b3373289b9bd"
+      Hint: Title
+      Value: Our Brands

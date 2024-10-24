@@ -1,0 +1,41 @@
+﻿---
+ID: "071f9ed2-7295-4bce-b4d2-98f11b28899b"
+Parent: "ad689a58-f6a3-4a14-8289-68cffe773135"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/nutrition-clinics/dr-olivia-greenfield/Home/Data/Text 2"
+BranchID: "ad7a188f-efca-498b-8522-e421f17c963d"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{23CFD232-CE82-4ABF-BEBC-E75A907BBCAF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240925T191528Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Nutrition Clinic Overview</h2>
+        <p><span>At our Nutrition Clinic, we are dedicated to helping you achieve optimal health through personalized nutrition. Our team of Certified Nutritionists provides comprehensive medical assessments and advanced genetic testing to create customized nutrition plans tailored to your unique needs. With expert guidance, holistic care, and ongoing support, we empower you to make informed decisions about your health and well-being. Visit us today and start your journey towards a healthier, happier you.</span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2236f74-bd40-470d-a7e9-1bc55607f66e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240925T191528Z

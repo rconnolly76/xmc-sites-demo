@@ -1,0 +1,71 @@
+﻿---
+ID: "4ca85d1f-835f-4f41-9d5a-a6b9a75aeb2e"
+Parent: "4cb18691-25c0-4393-b5c1-21d5dda05e20"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/multivitamin-gummies/Home/Sustainability"
+BranchID: "db716a18-aad0-45f8-84ae-c7aa61a42a0d"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{42C9ED19-8E6F-4B7A-AC34-4CC25896BCF1}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2C36A7B0-0CCD-4396-A6FE-4CD54CF15E86}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7bE6EBBE43-10A6-4860-B827-FC17F7348ACF%7d%7c%7b1BCBEA39-7D87-4A44-BF02-2551C920C2FB%7d%7c%7b69446217-7EEE-4B2B-BBCC-4D5757803113%7d%7c%7b93EAC8F2-B86C-433F-9FEE-B3A70D11D692%7d%7c%7bE4077DEB-E7BC-458B-BE07-9CA638CEF4DB%7d%7c%7b3D8AD439-6759-42C4-BADF-DD2C8D701E7F%7d%7c%7b3063266C-1CB2-4733-B2AB-103BB6032105%7d%7c%7bEB91CC74-4427-4CEE-8CD2-21511A550C7E%7d%7c%7b16F58335-27BC-4D88-A921-E7FFDE8F2939%7d%7c%7b0EE1BB5C-75AE-4C59-A99D-37B4DB34C5A0%7d%7c%7b0E1C9ADB-8A1F-4889-87D1-486F53D6A95A%7d%7c%7b40981518-EF15-46CA-BAD9-37B7A16BA4E9%7d%7c%7b9521EC8D-BE52-4204-8448-871C0F6E3FA5%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{4A8C84A9-9442-4E77-8DFF-701F4E507968}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bCFE0B441-66E4-4979-A6C0-8D7EA4DFCE67%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{346970DD-3E00-421F-948D-789EAF4B030A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T220534Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sustainability
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc6631e8-37af-4bc6-99a3-57d7be532406"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Sustainability
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T220615Z

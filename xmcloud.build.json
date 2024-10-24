@@ -10,8 +10,25 @@
         "runCommand": "next:start"
       }
     },
+    "deployItems": {
+      "modules": [
+        "renderinghost"
+      ]
+    },
     "postActions": {
         "actions":{
+          "scsModules": {
+            "modules": [
+              "SiteCreationTemplates",
+              "NutriLifeCorporate-Content",
+              "ActiveFuel-Content",
+              "NutriKids-Content",
+              "SlimLife-Content",
+              "PureEssence-Content",
+              "VitalGreens-Content",
+              "NutritionClinics-Content"
+            ]
+          },
           "warmUpCm": {
             "urls": [
               "/sitecore/shell",

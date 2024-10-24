@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "NutriLifeCorporate-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "NutriLife-Innovations-CollectionMedia",
+                "path": "/sitecore/media library/Project/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-Innovations-CollectionTemplates",
+                "path": "/sitecore/templates/Project/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-Innovations-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-Innovations-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-Innovations-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-Innovations-Branches",
+                "path": "/sitecore/templates/Branches/Project/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "NutriLife-Innovations-SiteCollectionContent",
+                "path": "/sitecore/content/nutrilife-innovations",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

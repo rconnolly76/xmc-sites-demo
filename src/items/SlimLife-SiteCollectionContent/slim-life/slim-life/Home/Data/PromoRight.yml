@@ -1,0 +1,51 @@
+﻿---
+ID: "e6ee8ddc-7ef4-4997-ba47-5c058c5af07d"
+Parent: "fcc42779-b4e4-411f-9ba7-806948569ff5"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/slim-life/slim-life/Home/Data/PromoRight"
+BranchID: "6e207af8-b1c3-4361-8a96-7d643f112f60"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{D87F2D12-FC2F-4DC9-8883-B6C7C46AED04}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240822T222139Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Where to Buy</h3>
+        <p>Find our products at trusted retailers online and in retail locations nationwide. Whether you prefer the convenience of online shopping or browsing in-store, discover multiple options to purchase your favorite NutriLife items:</p>
+        <ul>
+            <li><strong>Local Stores:</strong> Check out health food stores, pharmacies, and supermarkets near you. NutriLife products are often stocked on their shelves.</li>
+            <li><strong>Specialty Shops: </strong>Look for wellness boutiques or specialty nutrition stores. These curated spaces may carry exclusive NutriLife offerings</li>
+            <li><strong>Subscription Services: </strong>Consider subscription boxes or meal delivery services that feature NutriLife products. Enjoy regular deliveries right to your doorstep.</li>
+        </ul>
+        <p>Remember, wherever you choose to shop, NutriLife is committed to providing you with high-quality, nourishing options for your well-being!</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f39d87ee-01d0-40a8-8546-99c491174378"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T222139Z
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{C75B2370-624F-47DB-B278-260603E767B6}" />

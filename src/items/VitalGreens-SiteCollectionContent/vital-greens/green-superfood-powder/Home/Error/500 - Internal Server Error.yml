@@ -1,0 +1,79 @@
+﻿---
+ID: "b6ebe518-4b8b-4275-9d39-64535f0edaa8"
+Parent: "5c94054e-82e2-4ad3-8fe1-79f4e77b2f23"
+Template: "57116ef3-afd3-45c8-9cc7-ad8f684dc322"
+Path: "/sitecore/content/vital-greens/green-superfood-powder/Home/Error/500 - Internal Server Error"
+BranchID: "7a93ce40-5814-4e60-8902-556f106c8e15"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: |
+    {E0A2A027-0932-4878-A7D6-0416D5263EFB}
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 12
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FF08ED85-244B-4568-ADE9-4E4533B24091}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{63D25E3A-21A8-4125-9B59-2B4ED47B7503}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b5BADF602-A4C3-4734-BF54-FDFE6896AE73%7d%7c%7bFA94C9AB-7215-486B-9F96-A5F2ADBE4CBE%7d%7c%7b80FDE0FD-445A-48CB-B161-3FA684E90D2A%7d%7c%7b98A987A5-53F0-4FCD-81EB-DA48C6758483%7d%7c%7b289CFEAC-2CBE-432A-93BA-A95C6A9A8D99%7d%7c%7bB8B375E3-73D1-4415-83EC-48D0FDD9EF48%7d%7c%7b53DC92C1-6AF2-498A-A866-B797DD3B16C2%7d%7c%7bD11297E2-C7DF-4099-AAEF-4914E00CF6CF%7d%7c%7b7E08ABBA-8CAD-42C6-9E85-F2BB9264D221%7d%7c%7b7FAB07E7-297F-45CF-9798-F85D7E58964D%7d%7c%7b342D4F00-7986-4B92-A711-A2329064BF3F%7d%7c%7b8D36BE98-4B00-4891-A40E-52CEC393027B%7d%7c%7b4F23D4AE-C8DE-4291-942A-41832F40A72A%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{EF400BE5-25CA-473E-AB0F-57660E139501}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b9A691989-B229-4BD6-9D45-3D864FC09516%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C41290F1-F121-4120-B8DF-18E5C2278CC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "256781c5-d322-495f-bdc6-82deacb0d29a"
+      Hint: Title
+      Value: "500 - Internal Server Error"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T165321Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "500 - Internal Server Error"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec0169ac-8165-42e6-b234-f37f88013d15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T165349Z

@@ -1,0 +1,71 @@
+﻿---
+ID: "153b7f07-0289-4a46-baec-4dc2924e508b"
+Parent: "fafe40f7-a455-4348-bbab-0039b43269ec"
+Template: "0a730690-86d8-4c6f-a79e-43d0ec8ad57b"
+Path: "/sitecore/content/slim-life/fiber-supplement/Home/Product Support/Return Policy"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E46C60B2-1CF0-4BD6-ACE4-B623C2EDC62D}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2D67277F-C6B1-4ABF-BFC0-F32242E642A6}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b0A0D0449-FA7E-49AE-BD14-5B16A791F4AF%7d%7c%7b378D0137-F044-40DC-B0AE-A6EC4BFD7605%7d%7c%7b87BD1E5D-8E47-4A9F-874F-239B43F7DBDF%7d%7c%7b61873F8A-29FC-45FE-B0FE-D4302142BDD0%7d%7c%7b1373BFCF-39D6-4BE7-AC29-4C280DA2248D%7d%7c%7b1F0C01D0-1399-4FEB-B0D8-BDD759678910%7d%7c%7b96880530-E7E0-4D1D-9001-16A8BA8E1FE4%7d%7c%7b64696ACB-AFBE-49D2-AAAC-55489CDEEBEF%7d%7c%7b88884645-E908-4049-9957-C54AB05B5CFA%7d%7c%7b35B6BEAE-4D9B-4529-8CEE-AA0AE97CACD0%7d%7c%7b3AC8A15A-0707-49C9-8E7C-E3FF40BEB7FE%7d%7c%7b57CF55EF-ECE9-4E40-BE90-154D9B8B6DFF%7d%7c%7b8CCA528D-B362-4C83-AA5D-3C67AA581E17%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{7D5547DC-73DF-4068-8CA1-E5F170E07437}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7bE2E8FCE6-4DE3-426F-ADDB-1DF0BEF1D097%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6B1349E1-821E-4D3D-9F62-E59EFF7F7A9B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T182532Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Return Policy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "62ce1b12-4b42-43f6-9bab-c44285834e17"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d69b8077-574e-4545-bddb-ccff70f3b35c"
+      Hint: Title
+      Value: Return Policy
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T182612Z

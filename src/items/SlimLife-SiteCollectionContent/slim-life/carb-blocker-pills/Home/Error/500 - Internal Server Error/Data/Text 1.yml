@@ -1,0 +1,58 @@
+﻿---
+ID: "0792714f-e41f-467f-8453-7ca5f29eee05"
+Parent: "68837563-c08a-40d4-9210-8d061358cfcd"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/slim-life/carb-blocker-pills/Home/Error/500 - Internal Server Error/Data/Text 1"
+BranchID: "7a93ce40-5814-4e60-8902-556f106c8e15"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9455AFC9-232D-4D70-8750-4B206AB33BF0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T183205Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p>&nbsp;</p>
+        <h1></h1>
+        <h1>500 - Internal Server Error</h1>
+        <p>&nbsp;</p>
+        <h2>Uh-oh! Something went wrong on our end.</h2>
+        <p>It looks like we&rsquo;re experiencing some technical difficulties. Our team has been notified and is working hard to fix the issue. We apologize for any inconvenience this may have caused.</p>
+        <h3>In the meantime, here are a few things you can try:</h3>
+        <ul>
+            <li><strong>Refresh the page:</strong>&nbsp;Sometimes, a quick refresh can solve the problem.</li>
+            <li><strong>Go back to the Home Page:</strong>&nbsp;Start fresh from our homepage.</li>
+            <li><strong>Visit our Help Center:</strong>&nbsp;Find answers to common questions and issues.</li>
+        </ul>
+        <h3>Need Immediate Assistance?</h3>
+        <p>If you need immediate help, please contact our support team. We&rsquo;re here to assist you!</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><span>Thank you for your patience and understanding.</span></p>
+        <p><span><strong>Active Life&nbsp;Team</strong></span></p>
+        <p><span><strong>&nbsp;</strong></span></p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6883b414-ad7a-45aa-9baa-735950203482"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T183205Z

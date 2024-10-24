@@ -1,0 +1,51 @@
+﻿---
+ID: "b4c1f72d-5e32-497e-abe9-738b9bf27219"
+Parent: "48f9fa8c-471c-45f3-838a-1c87a9ddfd10"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/nutrilife-innovations/Corporate/Home/Data/PromoLeft"
+BranchID: "bf982a12-b7d1-46d0-b750-cb3bc8f89988"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BB1BAB02-35FC-469D-B037-EB036A54EB49}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240815T170316Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3>Our Brands</h3><p>Founded over 80 years ago by visionary Fictional Person, NutriLife™ is the world’s&nbsp;number-one selling vitamin and dietary supplement brand<span style="color: rgb(17, 17, 17);">. NutriLife’s commitment to sustainable and organic farming methods laid the foundation for NutriLife’s success. Their products are sourced from farms across the globe, including locations in Washington state, Mexico, and Brazil, where nutrient-rich soil yields fruits, vegetables, and herbs for plant concentrates used in their supplements.</span></p><p><br /></p><p>NutriLife™ maintains control over the entire growing process, from seed to harvest, ensuring the highest quality ingredients.&nbsp;Their holistic approach to nutrition emphasizes phytonutrients and plant-based health, making Nutrilite™ a trusted choice for health-conscious consumers.</p><p>Remember, NutriLife™ products are packed with earth’s purest nutrients, nourishing every aspect of your daily nutrition ritual.&nbsp;</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d753a686-5d33-4423-b0f2-6d7dacedf91f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240822T215316Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="internal" id="f52555d2-0d05-49f7-b4a0-f70b1d524aad" anchor="" querystring="" target="" class="" text="" title=""/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="7e570a98-32ca-4fc1-8f8a-f32107a75c30" />

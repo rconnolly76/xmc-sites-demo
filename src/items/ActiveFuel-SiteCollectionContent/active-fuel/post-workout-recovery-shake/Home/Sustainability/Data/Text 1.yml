@@ -1,0 +1,50 @@
+﻿---
+ID: "ba53dfa8-2b4c-422b-b43e-c07b50b27857"
+Parent: "2924c55e-12b7-41d9-bd00-0954fb0ff309"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/active-fuel/post-workout-recovery-shake/Home/Sustainability/Data/Text 1"
+BranchID: "db716a18-aad0-45f8-84ae-c7aa61a42a0d"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{24D7B4DB-06D2-49E3-A251-7197A755BF30}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T200131Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h1>Sustainability</h1>
+        <p>
+        </p>
+        <p style="margin-left: 0px;">
+        <ul style="color: #111111; background-color: #f7f7f7; margin: 12px 0px 0px;">
+            <li>Information on sustainable practices</li>
+            <li>Eco-friendly packaging details</li>
+            <li>Community initiatives</li>
+        </ul>
+        </p>
+        <p>&nbsp;</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5cb316c4-2f2b-40a5-9855-f479d56cf54a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T200131Z

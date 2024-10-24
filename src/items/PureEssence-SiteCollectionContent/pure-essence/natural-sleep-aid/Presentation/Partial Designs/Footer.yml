@@ -1,0 +1,68 @@
+﻿---
+ID: "88eca90d-0736-4525-98e1-8e003c3c69ad"
+Parent: "4d4d36a6-e594-4a37-a057-86c51479646c"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/pure-essence/natural-sleep-aid/Presentation/Partial Designs/Footer"
+BranchID: "1a3da15a-5d20-419a-89ff-7cc5348f59fe"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{38683681-D822-4D4B-8BDC-235CE2021401}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b2DFC0DAA-C4B0-492A-8C1D-B2B1B2A47162%7d%7c%7b64B13F4E-306F-4F28-AB03-3AF4AB075C0C%7d%7c%7b321397FD-0392-4B19-AA0B-4DFC723F4EE1%7d%7c%7b612F2307-8DAB-4C4F-9378-73E37DF2736C%7d%7c%7bCCF2876F-C208-4098-A5FD-844479322DED%7d%7c%7b6CF9DA75-3B85-4C02-998B-9A8760780884%7d%7c%7b6EBC6F4A-E3CE-43FD-A637-9A0F23151B7A%7d%7c%7b118F2DF7-45DA-4AB5-B9A5-CC51280F9BF2%7d%7c%7bB2C4CDEE-3EB6-474A-8C39-D89E5837CACF%7d%7c%7bB37D6014-5BB3-4CED-852D-C7D01C8E33DB%7d%7c%7b3D0AF3EA-10CC-4A85-A98A-0EF115A608FC%7d%7c%7b794D24CA-BE64-4A94-B81B-392D6F0666EB%7d%7c%7bB8999EB9-3212-4623-81AF-A69B9970B509%7d%7c%7b45896C40-390F-4E2E-8DBE-7805E3E33D53%7d%7c%7b0395E1CD-5CC5-4783-BFDA-6F149BF1BB28%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{56258413-ECCD-4DFC-88BD-111AB3B60A7A}"
+          p:after="r[@uid='{38683681-D822-4D4B-8BDC-235CE2021401}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b7F7F6C20-55B0-446E-B99C-30A9F4668B37%7d&amp;FieldNames=%7b7326B10F-2940-4017-ACF7-1C7ADAE51178%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{D3D9E877-A404-47F1-8B39-2F45238A92C4}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b7F7F6C20-55B0-446E-B99C-30A9F4668B37%7d&amp;FieldNames=%7b7326B10F-2940-4017-ACF7-1C7ADAE51178%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{36E2C121-AD7B-49F8-A0CF-06C000F962F7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T190755Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "203b77b6-ebe6-4a02-bbe0-b811dac838b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T190818Z

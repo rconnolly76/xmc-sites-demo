@@ -1,0 +1,71 @@
+﻿---
+ID: "f1a99ce8-3638-4121-b85b-88a2b1dbb15b"
+Parent: "2f56a981-8051-45c4-8ae6-16c1af6c0304"
+Template: "745db76a-6453-41e0-be36-a7a5032aec95"
+Path: "/sitecore/content/nutri-kids/immune-boost-gummies/Home/Product Support/Technical Support"
+BranchID: "605c8c81-8db6-4e00-8941-f7e03d9f6f61"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{57E51273-6FEC-42E2-894F-05E8A127E0E5}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{4E28B9F5-A086-4EF2-A231-9CB2E32C52EF}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b95A62138-2B3B-45A1-832E-53CB87152471%7d%7c%7bC0F7E070-EE97-44EE-9B04-322CA456FCB4%7d%7c%7b3A9D2522-9DD4-4F99-AA65-ACBBEC2AB86C%7d%7c%7b3AFE810A-B467-4C78-884F-C18E052C6BE9%7d%7c%7b2511AF6A-D2FF-4C04-B766-545646419D65%7d%7c%7b1B68A068-E70E-4672-B67B-35322BF59502%7d%7c%7bE0AFCB8A-BB1D-4BDC-97C3-F02E819E5CB5%7d%7c%7b9DA0B52A-E44E-4339-87C5-C1D1EAA7C644%7d%7c%7b05B84E64-E562-431C-9B57-4FACCCEF2E6A%7d%7c%7b2DF75801-C9F9-4217-B08A-D4C2BEE5955C%7d%7c%7b9B27A073-7375-42D3-93F0-DB764C289683%7d%7c%7b9EE865C3-FBE4-49AA-9A68-FAA726FB879C%7d%7c%7b80C7CFE6-29E5-499A-8EED-9F890B60EE26%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{E3766C31-F711-4B39-9E53-E70AA8B9727C}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7bD617B012-6CDA-4214-A6F8-5E5C0460EF0F%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b668666EB-839F-44EE-A597-F2093C6514C9%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A0711AAB-CD75-474C-84AA-BA9FBFBB62DF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240826T234700Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Technical Support
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1ab0613-66a1-47d3-8e47-e0940df1170e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\justin.vogt@sitecore.com
+    - ID: "cbfdf7a7-153d-4310-807b-d3856c622a7e"
+      Hint: Title
+      Value: Technical Support
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240826T234738Z
