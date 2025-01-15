@@ -1,0 +1,20 @@
+---
+ID: "241351d2-87af-4e63-a867-2dc5fa22b8aa"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "9f45ab44-1184-42f4-a602-a89801609571"
+Path: "/sitecore/content/streammicrosite"
+SharedFields:
+- ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
+  Hint: Name
+  Value: "Stream Microsite"
+- ID: "89cecf4f-e545-44f2-813d-272c08661d14"
+  Hint: Description
+  Value: "Boooya!"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T233931603Z"

@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "StreamMicrosite-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "StreamMicrosite-CollectionMedia",
+                "path": "/sitecore/media library/Project/streammicrosite",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "StreamMicrosite-CollectionTemplates",
+                "path": "/sitecore/templates/Project/streammicrosite",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "StreamMicrosite-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/streammicrosite",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "StreamMicrosite-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/streammicrosite",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "StreamMicrosite-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/streammicrosite",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "StreamMicrosite-Branches",
+                "path": "/sitecore/templates/Branches/Project/streammicrosite",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "StreamMicrosite-SiteCollectionContent",
+                "path": "/sitecore/content/streammicrosite",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}
