@@ -1,0 +1,15 @@
+---
+ID: "e7d66166-d867-4da0-988d-3eb7418894b3"
+Parent: "fe58cba8-b13d-46e3-a3de-29ada04023a7"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/midnighteffort/Headless Site"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_template.png
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Headless Site"

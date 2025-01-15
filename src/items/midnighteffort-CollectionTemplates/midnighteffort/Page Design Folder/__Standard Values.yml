@@ -1,0 +1,13 @@
+---
+ID: "ccbaabad-4135-4721-88a4-8eacd4870c02"
+Parent: "f2a08542-76b2-4aae-8280-f05c63bc8ad8"
+Template: "f2a08542-76b2-4aae-8280-f05c63bc8ad8"
+Path: "/sitecore/templates/Project/midnighteffort/Page Design Folder/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T235340609Z"

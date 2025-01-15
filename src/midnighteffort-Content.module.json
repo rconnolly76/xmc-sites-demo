@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "midnighteffort-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "midnighteffort-CollectionMedia",
+                "path": "/sitecore/media library/Project/midnighteffort",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "midnighteffort-CollectionTemplates",
+                "path": "/sitecore/templates/Project/midnighteffort",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "midnighteffort-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/midnighteffort",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "midnighteffort-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/midnighteffort",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "midnighteffort-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/midnighteffort",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "midnighteffort-Branches",
+                "path": "/sitecore/templates/Branches/Project/midnighteffort",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "midnighteffort-SiteCollectionContent",
+                "path": "/sitecore/content/midnighteffort",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

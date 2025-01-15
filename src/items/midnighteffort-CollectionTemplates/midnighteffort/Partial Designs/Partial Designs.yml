@@ -1,0 +1,15 @@
+---
+ID: "46fb0339-9bca-45f8-a2e8-0481b4b40d32"
+Parent: "b162322e-0ded-4ca9-8060-8b6c34120d08"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/midnighteffort/Partial Designs"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_template.png
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Partial Designs"

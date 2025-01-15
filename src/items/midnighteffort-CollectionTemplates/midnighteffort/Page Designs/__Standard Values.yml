@@ -1,0 +1,13 @@
+---
+ID: "c7c25185-e131-4d2e-bc4d-a3409936cb90"
+Parent: "a0769c0c-ce22-4a8d-847a-aab028be1672"
+Template: "a0769c0c-ce22-4a8d-847a-aab028be1672"
+Path: "/sitecore/templates/Project/midnighteffort/Page Designs/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T235340609Z"

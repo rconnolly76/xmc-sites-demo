@@ -1,0 +1,15 @@
+---
+ID: "a0769c0c-ce22-4a8d-847a-aab028be1672"
+Parent: "2712f2d7-ce2e-4474-bf83-de1673bb336b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/midnighteffort/Page Designs"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_template.png
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Page Designs"

@@ -1,0 +1,13 @@
+---
+ID: "6f0cd420-35f4-490f-b31e-f97065ce73df"
+Parent: "8a3e06fd-bb65-4fd3-8f2c-0b061ea9f430"
+Template: "8a3e06fd-bb65-4fd3-8f2c-0b061ea9f430"
+Path: "/sitecore/templates/Project/midnighteffort/Partial Design Folder/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T235340609Z"

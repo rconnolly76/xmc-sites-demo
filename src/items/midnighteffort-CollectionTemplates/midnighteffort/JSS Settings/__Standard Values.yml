@@ -1,0 +1,13 @@
+---
+ID: "2f38aef5-06d3-49bb-aa29-40aa3708b643"
+Parent: "bf4243e6-daa2-49dd-a4ce-6369b804d8bb"
+Template: "bf4243e6-daa2-49dd-a4ce-6369b804d8bb"
+Path: "/sitecore/templates/Project/midnighteffort/JSS Settings/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T235340609Z"

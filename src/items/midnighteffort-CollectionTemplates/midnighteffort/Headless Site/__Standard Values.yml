@@ -1,0 +1,13 @@
+---
+ID: "55f09d13-7450-45b3-983d-8f88ebacd732"
+Parent: "e7d66166-d867-4da0-988d-3eb7418894b3"
+Template: "e7d66166-d867-4da0-988d-3eb7418894b3"
+Path: "/sitecore/templates/Project/midnighteffort/Headless Site/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T235340609Z"

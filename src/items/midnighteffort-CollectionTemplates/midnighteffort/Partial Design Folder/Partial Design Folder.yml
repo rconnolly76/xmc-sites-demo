@@ -1,0 +1,15 @@
+---
+ID: "8a3e06fd-bb65-4fd3-8f2c-0b061ea9f430"
+Parent: "17c12371-ebfe-4ae7-afaa-5c282fe8899f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/midnighteffort/Partial Design Folder"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_template.png
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Partial Design Folder"

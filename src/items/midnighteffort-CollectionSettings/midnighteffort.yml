@@ -1,0 +1,11 @@
+---
+ID: "525ab1cb-2a0d-4426-8459-c468db65b0d6"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "9f45ab44-1184-42f4-a602-a89801609571"
+Path: "/sitecore/system/Settings/Feature/midnighteffort"
+SharedFields:
+- ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
+  Hint: Name
+  Value: "midnight effort Settings"
+Languages:
+- Language: en

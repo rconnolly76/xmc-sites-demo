@@ -1,0 +1,13 @@
+---
+ID: "bea1683b-eeb6-4220-a235-ededc2fb452a"
+Parent: "427e1dca-bec3-4b0e-a6f6-d235e26d8459"
+Template: "427e1dca-bec3-4b0e-a6f6-d235e26d8459"
+Path: "/sitecore/templates/Project/midnighteffort/Headless Tenant/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "2025-01-15T235340609Z"
