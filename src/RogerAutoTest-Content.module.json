@@ -1,0 +1,43 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "RogerAutoTest-Content",
+    "items": {
+        "includes": [
+            {
+                "name": "RogerAutoTest-CollectionMedia",
+                "path": "/sitecore/media library/Project/rogerautotest",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "RogerAutoTest-CollectionTemplates",
+                "path": "/sitecore/templates/Project/rogerautotest",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "RogerAutoTest-CollectionSettings",
+                "path": "/sitecore/system/Settings/Project/rogerautotest",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "RogerAutoTest-PlaceHolderSettings",
+                "path": "/sitecore/layout/Placeholder Settings/Project/rogerautotest",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "RogerAutoTest-Renderings",
+                "path": "/sitecore/layout/Renderings/Project/rogerautotest",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "RogerAutoTest-Branches",
+                "path": "/sitecore/templates/Branches/Project/rogerautotest",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "RogerAutoTest-SiteCollectionContent",
+                "path": "/sitecore/content/rogerautotest",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

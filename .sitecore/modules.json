@@ -1,0 +1,50 @@
+{
+  "$schema": "./schemas/ModuleFile.schema.json",
+  "namespace": "Project",
+  "items": {
+    "includes": [
+      {
+        "name": "Site Collections",
+        "path": "/sitecore/content",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Site Collection Settings",
+        "path": "/sitecore/system/Settings/Feature",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Site Collection Templates",
+        "path": "/sitecore/templates/Project",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Site Collection Media",
+        "path": "/sitecore/media library",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Site Collection Renderings",
+        "path": "/sitecore/layout/Renderings",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Site Collection Placeholder Settings",
+        "path": "/sitecore/layout/Placeholder Settings",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      },
+      {
+        "name": "Site Collection Branches",
+        "path": "/sitecore/templates/Branches",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createUpdateAndDelete"
+      }
+    ]
+  }
+} 
